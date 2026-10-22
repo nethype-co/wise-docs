@@ -138,6 +138,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/guides',
+          label: 'Guides',
+          position: 'left',
+        },
+        {
           to: '/contact',
           label: 'Contact',
           position: 'left',
@@ -162,11 +167,27 @@ const config: Config = {
               label: 'Blocks',
               to: '/blocks',
             },
+            {
+              label: 'Guides',
+              to: '/guides',
+            },
           ],
         },
         {
           title: 'Support',
           items: [
+            {
+              label: 'Support Policy',
+              to: '/getting-started/about-theme/support-policy',
+            },
+            {
+              label: 'Refund Policy',
+              to: '/getting-started/about-theme/refund-policy',
+            },
+            {
+              label: 'Theme Licensing',
+              to: '/getting-started/about-theme/theme-licensing',
+            },
             {
               label: 'Contact Us',
               to: '/contact',

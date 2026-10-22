@@ -89,6 +89,8 @@ The custom play/pause and mute/unmute buttons only work with a video uploaded to
 
 ### Showing media per variant
 
+For a full step-by-step setup with naming rules and examples, see [Multi-images variant gallery](/guides/multi-images-variant-gallery).
+
 When a customer picks a variant, the gallery jumps to that variant's image. You can also make the gallery show only the media that belongs to the selected variant, for example only the red photos when Red is selected. Pick how media is tagged in **Variant media tags**:
 
 * **Alt text:** Add a hashtag with the option value to the media's alt text in your Shopify admin, for example `#red`. Use `#red|blue` for media that belongs to more than one value, and `#all` for media that should always show.

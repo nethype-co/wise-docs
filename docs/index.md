@@ -18,6 +18,21 @@ Guides and references for the Wise Shopify theme: theme settings, sections, the 
 ## [Getting Started](/getting-started)
 
 - [Sections and blocks](/getting-started/sections-and-blocks)
+- [Installing and choosing a preset](/getting-started/installing-and-choosing-a-preset)
+- [Navigating the theme editor](/getting-started/navigating-the-theme-editor)
+- [Setting up your homepage](/getting-started/setting-up-your-homepage)
+- [Setting up navigation](/getting-started/setting-up-navigation)
+- [Sharing a theme preview](/getting-started/sharing-a-preview-of-your-shopify-theme)
+- [Editing theme files](/getting-started/customizing-your-theme-by-editing-theme-files)
+
+---
+
+## [About the theme](/getting-started/about-theme)
+
+- [Support policy](/getting-started/about-theme/support-policy)
+- [Refund policy](/getting-started/about-theme/refund-policy)
+- [Theme licensing and transfers](/getting-started/about-theme/theme-licensing)
+- [Accessibility](/getting-started/about-theme/accessibility)
 
 ---
 
@@ -216,5 +231,20 @@ Guides and references for the Wise Shopify theme: theme settings, sections, the 
 - [Separator](/blocks/separator)
 - [Subheading](/blocks/subheading)
 - [Text](/blocks/text)
+
+---
+
+## [Guides](/guides)
+
+- [Variant picker vs. Product siblings](/guides/standard-variant-picker-vs-product-siblings)
+- [Set up Product siblings](/guides/how-to-set-up-product-siblings)
+- [Customize the variant picker](/guides/a-complete-guide-to-customizing-the-variant-picker)
+- [Size guide per product](/guides/how-to-set-up-size-guide-per-product)
+- [Multi-images variant gallery](/guides/multi-images-variant-gallery)
+- [Personalize products with custom options](/guides/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options)
+- [How to set up a product card](/guides/how-to-set-up-a-product-card)
+- [Maximizing SEO potential](/guides/maximizing-seo-potential-within-your-theme)
+- [Page speed mastery](/guides/unlocking-page-speed-mastery-for-your-shopify-store)
+- [Choosing a reviews app](/guides/which-reviews-app-should-you-use-on-shopify-free-paid-options)
 
 </div>

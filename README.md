@@ -21,7 +21,7 @@ npm run serve    # serve the production build
 - `docs/pages`: sections used by page templates (cart, collection, search, blog, article, ...)
 - `docs/blocks`: shared theme blocks (heading, text, button, ...), documented once and linked from section articles
 
-`docs/index.md` and `static/llms.txt` list every article; regenerate them when adding articles.
+`docs/index.md` and `static/llms.txt` list every article. Regenerate them with `python3 scripts/generate-index.py` after adding articles.
 
 Section articles cover the section settings, its static blocks and its private (`_`-prefixed) blocks. Shared theme blocks are only linked.
 

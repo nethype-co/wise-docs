@@ -18,8 +18,8 @@ The **Breadcrumbs** section shows a small navigation trail at the top of a page,
 
 Wise adds the Breadcrumbs section to these templates by default:
 
-* **Collections > Default collection**
-* **Products > Default product** and the other product templates
+* **Products > Default product**, **beauty-gummies** and **omega-3**
+* **Collections > Default collection**, where it is hidden by default. Click the eye icon next to the section in the sidebar to show it.
 
 Choose a template in the page selector at the top of the theme editor to edit it there. You can also add the section to any other template with **Add section**, for example to pages, blogs or blog posts. It cannot be added to the header or footer.
 

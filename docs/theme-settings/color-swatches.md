@@ -129,7 +129,7 @@ Some stores create a separate product for each color, for example to give every 
 **Step 2. Fill in the metafields on every product in the group.**
 
 * Set the option value, for example *Black* on the black product and *Sand* on the sand product.
-* In the products list, select every product of the group, including the product itself, in the order you want the swatches to appear.
+* In the products list, select every product of the group, including the product itself.
 
 **Step 3. Connect the metafields in the theme.**
 

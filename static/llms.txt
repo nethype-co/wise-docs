@@ -1,10 +1,23 @@
 # Wise Theme Documentation
 
-> Wise is a Shopify theme by Nethype, built on Shopify's block-first theme architecture. This is the official documentation covering theme settings, sections, the product page and theme blocks. Applies to Wise Theme v1.0+.
+> Wise is a Shopify theme by Nethype, built on Shopify's block-first theme architecture. This is the official documentation covering theme settings, sections, the product page, theme blocks and how-to guides. Applies to Wise Theme v1.0+.
 
 ## Getting Started
 
 - [Sections and blocks](https://support.wise-theme.com/getting-started/sections-and-blocks): 
+- [Installing and choosing a preset](https://support.wise-theme.com/getting-started/installing-and-choosing-a-preset): Add the Wise theme to your Shopify store and pick the preset that fits your brand: Wise or Monsoon.
+- [Navigating the theme editor](https://support.wise-theme.com/getting-started/navigating-the-theme-editor): Find your way around the Shopify theme editor with Wise: section groups, templates, nested blocks and theme settings.
+- [Setting up your homepage](https://support.wise-theme.com/getting-started/setting-up-your-homepage): See which sections the Wise home page ships with and how to replace the demo content with your own.
+- [Setting up navigation](https://support.wise-theme.com/getting-started/setting-up-navigation): Create menus in Shopify and connect them to the Wise header, mega menus, mobile menu and footer.
+- [Sharing a theme preview](https://support.wise-theme.com/getting-started/sharing-a-preview-of-your-shopify-theme): Create a preview link so others can see your unpublished Wise theme without access to your Shopify admin.
+- [Editing theme files](https://support.wise-theme.com/getting-started/customizing-your-theme-by-editing-theme-files): Edit the Wise theme code safely, learn where styles live and when to use Custom Liquid or custom CSS instead.
+
+## About the theme
+
+- [Support policy](https://support.wise-theme.com/getting-started/about-theme/support-policy): When our support team is available, what we can help with and what is outside the scope of free support.
+- [Refund policy](https://support.wise-theme.com/getting-started/about-theme/refund-policy): Try Wise for free before you buy, and find out how purchases and refunds are handled by Shopify.
+- [Theme licensing and transfers](https://support.wise-theme.com/getting-started/about-theme/theme-licensing): What a Wise license covers, when you need another one, and how license transfers work.
+- [Accessibility](https://support.wise-theme.com/getting-started/about-theme/accessibility): The accessibility features built into Wise, and what you can do to keep your store usable for everyone.
 
 ## Theme Settings
 
@@ -175,6 +188,19 @@
 - [Separator](https://support.wise-theme.com/blocks/separator): Add a divider line or extra space between blocks.
 - [Subheading](https://support.wise-theme.com/blocks/subheading): Add a short line above or below a heading, in the subheading style of your store.
 - [Text](https://support.wise-theme.com/blocks/text): Add paragraphs, lists and links to any section.
+
+## Guides
+
+- [Variant picker vs. Product siblings](https://support.wise-theme.com/guides/standard-variant-picker-vs-product-siblings): Compare Shopify variants with the Variant picker block and separate products linked with the Product siblings block, and choose the right one for your catalog.
+- [Set up Product siblings](https://support.wise-theme.com/guides/how-to-set-up-product-siblings): Link separate products, such as one product per color, and show them as swatches or images on the product page and on product cards.
+- [Customize the variant picker](https://support.wise-theme.com/guides/a-complete-guide-to-customizing-the-variant-picker): Show each product option as tiles, a drawer, color swatches or variant photos, and set up colors, sold out values and a size guide.
+- [Size guide per product](https://support.wise-theme.com/guides/how-to-set-up-size-guide-per-product): Show a size table that is different for each product, a shared size guide page, or both, on the product page and in the quick buy picker on product cards.
+- [Multi-images variant gallery](https://support.wise-theme.com/guides/multi-images-variant-gallery): Show only the photos of the selected variant in the product gallery, using alt text tags, file names or variant image groups.
+- [Personalize products with custom options](https://support.wise-theme.com/guides/a-step-by-step-guide-to-personalizing-your-product-pages-with-custom-options): Add a checkbox, dropdown or text field to the product page, such as gift wrapping or an engraving, and receive the answer with the order.
+- [How to set up a product card](https://support.wise-theme.com/guides/how-to-set-up-a-product-card): Build the product card from blocks, reorder its parts, and set up quick buy, color swatches and badges on your collection pages and product sections.
+- [Maximizing SEO potential](https://support.wise-theme.com/guides/maximizing-seo-potential-within-your-theme): Use Wise's headings, structured data, alt text and breadcrumbs to help search engines understand and rank your store.
+- [Page speed mastery](https://support.wise-theme.com/guides/unlocking-page-speed-mastery-for-your-shopify-store): Measure your store's speed, use Wise's performance settings and keep apps and media from slowing your pages down.
+- [Choosing a reviews app](https://support.wise-theme.com/guides/which-reviews-app-should-you-use-on-shopify-free-paid-options): Compare popular Shopify review apps and learn how to show their star ratings in Wise.
 
 ## Full documentation
 

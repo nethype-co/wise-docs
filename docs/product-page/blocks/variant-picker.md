@@ -17,7 +17,7 @@ The **Variant picker** block lets customers choose between the variants of a pro
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 :::note
-The block is hidden on products that have only one variant. It needs the [Buy buttons](/product-page/blocks/buy-buttons) block in the same section: the picker sends the chosen variant to the add to cart form there.
+The block is hidden on products that have no options (only Shopify's default variant). It needs the [Buy buttons](/product-page/blocks/buy-buttons) block in the same section: the picker sends the chosen variant to the add to cart form there.
 :::
 
 ## How the picker works
@@ -58,7 +58,7 @@ If the unselected border is very close to the selected border, every tile would 
 
 #### Swatches
 
-These lists work per block. When a list here is empty, the matching list from [Theme settings > Color swatches](/theme-settings/color-swatches) is used, so you usually only need to fill them in once in theme settings. Enter option **names** (one per line), not values: `Color`, not `Red`.
+These lists work per block. When the color swatch or variant photo list here is empty, the matching list from [Theme settings > Color swatches](/theme-settings/color-swatches) is used, so you usually only need to fill those in once in theme settings. **Options shown as a drawer** has no theme settings list and works only per block. Enter option **names** (one per line), not values: `Color`, not `Red`.
 
 * **Options shown as color swatches:** Options shown as color swatches, for example `Color`.
 * **Options shown as variant photos:** Options shown as small photos, for example `Color`.
