@@ -1,18 +1,180 @@
 # Wise Theme Documentation
 
-> Wise is a Shopify theme by Nethype, built on Shopify's block-first theme architecture. This is the official documentation covering sections, theme blocks and theme settings. Applies to Wise Theme v1.0+.
+> Wise is a Shopify theme by Nethype, built on Shopify's block-first theme architecture. This is the official documentation covering theme settings, sections, the product page and theme blocks. Applies to Wise Theme v1.0+.
 
 ## Getting Started
 
-- [How sections and blocks work in Wise](https://support.wise-theme.com/getting-started/sections-and-blocks): Sections, static blocks, theme blocks and presets
+- [Sections and blocks](https://support.wise-theme.com/getting-started/sections-and-blocks): 
 
-## Sections
+## Theme Settings
 
-- [Image with text](https://support.wise-theme.com/sections/storytelling/image-with-text): Image or video next to text, a table, a collapsible menu or a countdown timer
+- [Favicon](https://support.wise-theme.com/theme-settings/favicon): Add the small icon shown in browser tabs and bookmarks.
+- [Layout](https://support.wise-theme.com/theme-settings/layout): Set the maximum page width and how rounded corners and buttons are across the store.
+- [Colors](https://support.wise-theme.com/theme-settings/colors): Set your color palette and the default colors for text, buttons, prices, forms, the header and the footer.
+- [Sliders](https://support.wise-theme.com/theme-settings/sliders): Style the arrows and pagination dots of every slider and carousel in your store.
+- [Typography](https://support.wise-theme.com/theme-settings/typography): Choose fonts, sizes and letter spacing for text, headings, navigation, buttons and prices, and add your own custom fonts.
+- [Cart](https://support.wise-theme.com/theme-settings/cart): Choose between a cart drawer and a cart page, and let customers switch cart items to a subscription.
+- [Cart - addons](https://support.wise-theme.com/theme-settings/cart-add-ons): Set up gift wrapping or another additional service, the free shipping bar and the discount progress bar in the cart.
+- [Localization drawer](https://support.wise-theme.com/theme-settings/localization-drawer): Show or hide country flags in the country and language selector.
+- [Currency format](https://support.wise-theme.com/theme-settings/currency-format): Show currency codes such as USD or EUR next to prices across the store.
+- [Icon set](https://support.wise-theme.com/theme-settings/icon-set): Choose the theme's icon style, upload your own header icons and pick the accordion, quick buy and close cursor icons.
+- [Predictive search](https://support.wise-theme.com/theme-settings/predictive-search): Turn instant search results on or off and choose which product details the search looks in.
+- [Social media](https://support.wise-theme.com/theme-settings/social-media): Add links to your social media profiles, shown as icons in the footer and other places.
+- [Color swatch](https://support.wise-theme.com/theme-settings/color-swatches): Show colors and patterns as swatches on product pages, product cards and filters, and link separate products as color variations.
+- [Product badges](https://support.wise-theme.com/theme-settings/product-badges): Show sale, sold out and custom badges such as New or Bestseller on product images, driven by product tags.
+- [Animations](https://support.wise-theme.com/theme-settings/animations): Turn scroll animations, image hover effects and the button hover effect on or off.
+- [Scroll to top](https://support.wise-theme.com/theme-settings/scroll-to-top): Add a round button that takes customers back to the top of the page.
+- [Performance](https://support.wise-theme.com/theme-settings/performance): Speed up page changes with link preloading and choose how images look while they load.
+- [Store policies (structured data)](https://support.wise-theme.com/theme-settings/structured-data): Add your contact details, return policy and shipping policy to the information search engines read from your store.
+
+## Sections: Storytelling
+
+- [Before and after](https://support.wise-theme.com/sections/storytelling/before-and-after): Compare two images with a draggable slider, next to a column of text.
+- [Brands](https://support.wise-theme.com/sections/storytelling/brands): Show a row of brand or partner logos as a swipeable row or a moving marquee.
+- [Collage](https://support.wise-theme.com/sections/storytelling/collage): Show one large and two small image or video tiles with text on top.
+- [Comparison table](https://support.wise-theme.com/sections/storytelling/comparison-table): Compare your products, or your product against others, in a table with icons, text and images.
+- [Features banner](https://support.wise-theme.com/sections/storytelling/features-banner): Show a row of icons with short headings and text, such as free shipping or easy returns.
+- [Grid view](https://support.wise-theme.com/sections/storytelling/grid-view): Show a grid or slider of image and video tiles with text, buttons and optional links.
+- [Grid view with drawer](https://support.wise-theme.com/sections/storytelling/grid-view-drawer): Show a grid of image tiles where each tile opens a side drawer with more content.
+- [Grid view with hover](https://support.wise-theme.com/sections/storytelling/grid-view-hover): Show a text column next to a grid of tiles that change their image and text when the mouse moves over them.
+- [Grid view with modal](https://support.wise-theme.com/sections/storytelling/grid-view-modal): Show a grid of image tiles where each tile opens a centered pop-up with more content.
+- [Grid view with reveal](https://support.wise-theme.com/sections/storytelling/grid-view-reveal): Show a grid of image cards that turn over to a second side with more content when clicked.
+- [Image with text](https://support.wise-theme.com/sections/storytelling/image-with-text): Show an image or video next to text, a table, a collapsible menu or a countdown timer.
+- [Marquee images](https://support.wise-theme.com/sections/storytelling/marquee-images): Show a row of images that moves across the screen in an endless loop.
+- [Multicolumn](https://support.wise-theme.com/sections/storytelling/multicolumn): Show several columns, each with an image or video and text below it, as a grid or a slider.
+- [Parallax section](https://support.wise-theme.com/sections/storytelling/parallax): Show a full-screen heading with images that float up over it as customers scroll.
+- [Product benefits](https://support.wise-theme.com/sections/storytelling/benefits-product): Show a product image or video with short benefits arranged around it.
+- [Quiz](https://support.wise-theme.com/sections/storytelling/quiz): Build a product finder quiz that recommends a product or a collection based on the customer's answers.
+- [Shop the look](https://support.wise-theme.com/sections/storytelling/shop-the-look): Show a lifestyle image with hotspots next to a slider of the products in it, with an optional Add all to cart button.
+- [Shoppable image](https://support.wise-theme.com/sections/storytelling/shoppable-image): Add hotspots to a large image that open a product card or a short benefit text.
+
+## Sections: Banners
+
+- [Editorial](https://support.wise-theme.com/sections/banners/editorial-section): Combine a banner at the top with columns, grids, products or text stacked below it in one section.
+- [Editorial banner](https://support.wise-theme.com/sections/banners/editorial-banner): Stack text, columns, grids or products on top of a full background image or video.
+- [Image banner](https://support.wise-theme.com/sections/banners/image-banner): Show a large image or video with a heading, text and buttons on top, and optional floating product cards.
+- [Image with video](https://support.wise-theme.com/sections/banners/video-section): Show an image and a video side by side, with your text placed on one of them.
+- [Orbit carousel](https://support.wise-theme.com/sections/banners/orbit-carousel): Show portrait images on a curved arc that rotates, with the text of the centered slide below it.
+- [Scrolling text banner](https://support.wise-theme.com/sections/banners/scrolling-text-banner): Show a line of text and icons that scrolls continuously across the screen, with an optional background image.
+- [Slideshow](https://support.wise-theme.com/sections/banners/slideshow): Show several full-width images in a looping slideshow, each with its own text, buttons and product cards.
+
+## Sections: Collections and products
+
+- [Collection list](https://support.wise-theme.com/sections/collections/collection-list): Show a set of collections as image cards or buttons, in a grid or a slider.
+- [Featured collection](https://support.wise-theme.com/sections/collections/featured-collection): Show products from a collection, or a hand-picked list of products, in a grid or a slider.
+- [Featured collections tabs](https://support.wise-theme.com/sections/collections/featured-collections-tabs): Show products from several collections in one section, with tabs to switch between them.
+- [Featured product](https://support.wise-theme.com/sections/collections/featured-product): Show one product with its gallery, price, variant picker and add to cart button on any page.
+- [Product recommendations](https://support.wise-theme.com/sections/collections/product-recommendations): Show products that Shopify picks as related to the product a shopper is viewing.
+- [Products slider](https://support.wise-theme.com/sections/collections/product-slider): Show products one at a time, each next to a large promo image with its own text.
+- [Recently viewed products](https://support.wise-theme.com/sections/collections/recently-viewed-products): Show each shopper the products they looked at most recently.
+
+## Sections: Testimonials
+
+- [Expert testimonial](https://support.wise-theme.com/sections/testimonials/expert-testimonial): Show quotes from experts or customers next to a large image, with small portraits to switch between them.
+- [Testimonial video reels](https://support.wise-theme.com/sections/testimonials/video-reels-with-testimonial): Show short customer videos and testimonial cards in a centered, looping carousel.
+- [Testimonial: Marquee](https://support.wise-theme.com/sections/testimonials/testimonial-marquee): Show testimonial cards in a row that scrolls continuously or that visitors can swipe.
+- [Testimonials](https://support.wise-theme.com/sections/testimonials/testimonials): Show customer reviews one at a time in a simple slider with a rating, image and author.
+
+## Sections: Text
+
+- [Collapsible menu](https://support.wise-theme.com/sections/text/collapsible-menu): Show questions, answers and other details in rows that open and close, for example an FAQ.
+- [Content with navigation](https://support.wise-theme.com/sections/text/side-nav-content): Organize long content, such as an FAQ or policies, into groups with a navigation menu that jumps to each group.
+- [Countdown timer](https://support.wise-theme.com/sections/text/countdown-timer): Count down to a sale, a launch or any other date, with a heading and a button.
+- [Metrics banner](https://support.wise-theme.com/sections/text/metric-banner): Highlight key numbers, such as happy customers or years in business, with optional count-up animation.
+- [Rich text](https://support.wise-theme.com/sections/text/rich-text): Add headings, text, buttons, an email signup form or a countdown timer in one or two columns.
+- [Scroll fill text](https://support.wise-theme.com/sections/text/scroll-fill-text): Large statement text that fills with color as customers scroll, with optional small images inside the text.
+
+## Sections: Forms
+
+- [Contact form](https://support.wise-theme.com/sections/forms/contact-form): Let customers send you a message with a form you build from fields, optionally next to an image.
+- [Newsletter with image](https://support.wise-theme.com/sections/forms/newsletter-with-image): Collect newsletter sign-ups with an email form shown on top of a large image.
+
+## Sections: Blog
+
+- [Blog posts](https://support.wise-theme.com/sections/blog/blog-posts): Show the latest posts from one of your blogs as cards in a grid or a slider.
+- [Featured blog post](https://support.wise-theme.com/sections/blog/featured-blog-post): Highlight one blog post with a large image next to its title, excerpt and a Read more button.
+
+## Sections: Other
+
+- [Custom Liquid](https://support.wise-theme.com/sections/other/custom-liquid): Add app snippets, embed codes or your own Liquid code as a full section.
+- [Featured navigation](https://support.wise-theme.com/sections/other/featured-navigation): Show the links of a menu as a row of buttons, for example to move between collections.
+- [Pills navigation](https://support.wise-theme.com/sections/other/pills-navigation): A row of round image links or button-style pills that take customers to collections, products or pages.
+
+## Header, footer and popups
+
+- [Announcement bar](https://support.wise-theme.com/header-footer/announcement-bar): Show short messages, such as free shipping or returns, in a bar above the header.
+- [Cart drawer](https://support.wise-theme.com/header-footer/cart-drawer): Set up the side drawer that opens with the cart, including progress bars, cross-sells and checkout buttons.
+- [Footer](https://support.wise-theme.com/header-footer/footer): Build your store footer from rows of menus, your logo, a newsletter form, social and payment icons.
+- [Header](https://support.wise-theme.com/header-footer/header): Set up your store's logo, main menu, mega menus, header icons, mobile menu and per-page header colors.
+- [Notification popup](https://support.wise-theme.com/header-footer/notification-popup): Show a popup with a newsletter form, a discount code or an announcement after a page loads.
+- [Quick view](https://support.wise-theme.com/header-footer/quick-view): Set up the side drawer that lets customers pick options and add a product to the cart from a product card.
+- [Search overlay](https://support.wise-theme.com/header-footer/search-overlay): Set up the full-screen search that opens from the header, with live results, trending searches and featured products.
+
+## Product page
+
+- [Pickup availability](https://support.wise-theme.com/product-page/pickup-availability): A helper section that loads in-store pickup information when a customer changes the variant.
+- [Product information](https://support.wise-theme.com/product-page/product-information): Set up the main product section: the gallery, the layout and the blocks that show the title, price, variants and buy buttons.
+
+## Product page blocks
+
+- [Badges](https://support.wise-theme.com/product-page/blocks/badges): Show the product badges, such as Sold out and your own tag badges, in the product details.
+- [Bullet points](https://support.wise-theme.com/product-page/blocks/bulletpoints): Show a short list of key product features, from a product metafield or your own text.
+- [Buy buttons](https://support.wise-theme.com/product-page/blocks/buy-buttons): Show the add to cart button, the quantity selector and the dynamic checkout buttons on the product page.
+- [Collapsible drawer](https://support.wise-theme.com/product-page/blocks/collapsible-drawer): Add a row that opens a side drawer with extra product information.
+- [Collapsible row](https://support.wise-theme.com/product-page/blocks/collapsible-row): Add an expandable row with product details, care instructions, downloads or a specification table.
+- [Complementary products](https://support.wise-theme.com/product-page/blocks/complementary-products): Show products that go well with the current product, picked in Shopify's Search & Discovery app.
+- [Complementary products (compact)](https://support.wise-theme.com/product-page/blocks/complementary-products-compact): Show complementary products from Shopify's Search & Discovery app as small horizontal cards with an add button.
+- [Countdown with discount](https://support.wise-theme.com/product-page/blocks/countdown-discount): Show a limited time offer with a countdown timer and a discount code customers can copy.
+- [Custom option](https://support.wise-theme.com/product-page/blocks/custom-option): Add a checkbox, dropdown or text field to the product page and save the customer's choice with the order.
+- [Description](https://support.wise-theme.com/product-page/blocks/description): Show the product description from your Shopify admin, as plain text or in a collapsible row.
+- [Estimated delivery](https://support.wise-theme.com/product-page/blocks/estimated-delivery): Show customers when their order is expected to arrive.
+- [Feature icons](https://support.wise-theme.com/product-page/blocks/feature-icons): Show a grid of small icons with labels, such as Free shipping or Vegan, added by hand or from a product metafield.
+- [Feature icons list](https://support.wise-theme.com/product-page/blocks/feature-icons-list): Show a grid of icons with a title and a description, from a product metafield or added by hand.
+- [Feature tags](https://support.wise-theme.com/product-page/blocks/feature-tags): Show product features such as Vegan or Gluten free as small tags, from a metafield or added by hand.
+- [Inventory status](https://support.wise-theme.com/product-page/blocks/inventory-status): Show whether the selected variant is in stock, with an optional stock count and progress bar.
+- [Payment badges](https://support.wise-theme.com/product-page/blocks/payment-badges): Show the payment methods you accept, or your own trust badge image, near the buy buttons.
+- [Pickup availability](https://support.wise-theme.com/product-page/blocks/pickup-availability): Show whether the selected variant can be picked up in store, with a drawer listing your pickup locations.
+- [Popup](https://support.wise-theme.com/product-page/blocks/information-popup): Add a text link that opens a popup with shipping details, a care guide, a table or other content.
+- [Price](https://support.wise-theme.com/product-page/blocks/price): Show the price of the selected variant, with the sale price, tax note and installment message.
+- [Product siblings](https://support.wise-theme.com/product-page/blocks/product-siblings): Link separate products that are versions of each other, such as one product per color, and show them like a variant picker.
+- [Promo](https://support.wise-theme.com/product-page/blocks/promo): Add a highlighted text box to the product page for offers, notes or announcements.
+- [Rating](https://support.wise-theme.com/product-page/blocks/rating): Show the product's star rating and review count from your reviews app.
+- [Share buttons](https://support.wise-theme.com/product-page/blocks/share-buttons): Let customers share the product on Facebook, X, Pinterest, WhatsApp or by email.
+- [Shipping timeline](https://support.wise-theme.com/product-page/blocks/shipping-timeline): Show an order, ship and delivery timeline with a cutoff countdown and a free shipping message.
+- [SKU](https://support.wise-theme.com/product-page/blocks/sku): Show the SKU of the selected variant on the product page.
+- [Sticky buy button](https://support.wise-theme.com/product-page/blocks/sticky-buy-button): Show an add to cart bar at the bottom of the screen once the main add to cart button scrolls out of view.
+- [Subscription widget](https://support.wise-theme.com/product-page/blocks/subscription-widget): Let customers choose between a one-time purchase and a subscription plan on the product page.
+- [Testimonials](https://support.wise-theme.com/product-page/blocks/product-testimonials): Show customer quotes with star ratings on the product page, as a grid or a slider.
+- [Title](https://support.wise-theme.com/product-page/blocks/title): Show the product title as the page heading, with an optional brand line above it.
+- [Upsell](https://support.wise-theme.com/product-page/blocks/upsell): Recommend products you pick by hand, the same for every product or different per product with a metafield.
+- [Variant picker](https://support.wise-theme.com/product-page/blocks/variant-picker): Let customers choose a size, color or other option with tiles, color swatches, variant photos or a drawer, plus an optional size guide.
+- [Video reels](https://support.wise-theme.com/product-page/blocks/video-reels): Show short vertical videos as tiles that open in a full screen reel viewer with a shoppable product card.
+
+## Pages and templates
+
+- [404 page](https://support.wise-theme.com/pages/404): Set up the page customers see when they open a link that does not exist.
+- [Article](https://support.wise-theme.com/pages/article): Set up how your blog posts look: featured image, title, content, share buttons and comments.
+- [Blog](https://support.wise-theme.com/pages/blog): Set up the page that lists all posts of a blog, with an optional tag filter.
+- [Breadcrumbs](https://support.wise-theme.com/pages/breadcrumbs): Show a breadcrumb trail so customers can see where they are and go back a level.
+- [Cart](https://support.wise-theme.com/pages/cart): Set up the cart page: cart lines, progress bars, cross-sells, add-ons and the checkout area.
+- [Collection product grid](https://support.wise-theme.com/pages/collection-product-grid): Set up the product grid on collection pages, with filters, sorting, pagination and promo tiles.
+- [Collections list](https://support.wise-theme.com/pages/list-collections): Set up the page that lists all the collections in your store.
+- [Page](https://support.wise-theme.com/pages/page): Show the title and content of the pages you create in your Shopify admin.
+- [Password](https://support.wise-theme.com/pages/password): Design the page visitors see while your store is protected with a password.
+- [Password footer](https://support.wise-theme.com/pages/password-footer): The footer of the password page, with your social links and the link to enter the store.
+- [Search](https://support.wise-theme.com/pages/search): Set up the search results page, with tabs for products, articles and pages, filters and sorting.
 
 ## Blocks
 
-- [Button](https://support.wise-theme.com/blocks/button): One or two buttons or text links, usable in any section that accepts blocks
+- [Breadcrumbs](https://support.wise-theme.com/blocks/breadcrumbs): Show customers where they are in your store, for example Home / Collection / Product, inside a banner or another section.
+- [Button](https://support.wise-theme.com/blocks/button): Add one or two buttons or text links to any section.
+- [Custom Liquid](https://support.wise-theme.com/blocks/custom-liquid): Add app snippets or your own Liquid code inside a section.
+- [Group](https://support.wise-theme.com/blocks/group): Hold other blocks together and lay them out in a row or a column, for example to build two columns.
+- [Heading](https://support.wise-theme.com/blocks/heading): Add a title to any section, sized to fit with the rest of your store.
+- [Icon with text](https://support.wise-theme.com/blocks/icon-with-text): Show an icon or a small image next to a short line of text, for example a product benefit.
+- [Separator](https://support.wise-theme.com/blocks/separator): Add a divider line or extra space between blocks.
+- [Subheading](https://support.wise-theme.com/blocks/subheading): Add a short line above or below a heading, in the subheading style of your store.
+- [Text](https://support.wise-theme.com/blocks/text): Add paragraphs, lists and links to any section.
 
 ## Full documentation
 

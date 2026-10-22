@@ -29,7 +29,7 @@ Blocks are the building pieces inside a section. In the theme editor sidebar the
 Wise has three kinds of blocks:
 
 * **Static blocks:** The fixed structure of a section, for example the **Header** block at the top of most sections or the **Image with text container**. They are always there, so you can edit them but not remove or move them.
-* **Theme blocks:** Shared blocks such as [Heading](/blocks), [Text](/blocks) and [Button](/blocks/button). They work the same way in every section and can be added, reordered, duplicated and removed. See [Blocks](/blocks) for the full list.
+* **Theme blocks:** Shared blocks such as [Heading](/blocks/heading), [Text](/blocks/text) and [Button](/blocks/button). They work the same way in every section and can be added, reordered, duplicated and removed. See [Blocks](/blocks) for the full list.
 * **Section blocks:** Blocks made for one section only, for example a table row or a slide. They are documented in the article for that section.
 
 ## Adding a block

@@ -14,8 +14,14 @@ npm run serve    # serve the production build
 ## Structure
 
 - `docs/getting-started`: basics, including how sections and blocks work
+- `docs/theme-settings`: one article per group in **Theme settings**
 - `docs/sections/<group>`: one article per section, grouped like the theme editor's **Add section** menu
+- `docs/header-footer`: header, footer, announcement bar and the Drawers & Popups group
+- `docs/product-page`: the Product information section and one article per product page block
+- `docs/pages`: sections used by page templates (cart, collection, search, blog, article, ...)
 - `docs/blocks`: shared theme blocks (heading, text, button, ...), documented once and linked from section articles
+
+`docs/index.md` and `static/llms.txt` list every article; regenerate them when adding articles.
 
 Section articles cover the section settings, its static blocks and its private (`_`-prefixed) blocks. Shared theme blocks are only linked.
 

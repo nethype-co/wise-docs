@@ -26,7 +26,7 @@ All three presets use the same blocks, so you can turn one into another by addin
 
 When you expand the section in the theme editor sidebar, you will see two fixed blocks:
 
-* **Header:** An optional heading area above the image and text. It contains a [Heading](/blocks) block by default. Remove the heading if you do not need a section title.
+* **Header:** An optional heading area above the image and text. It contains a [Heading](/blocks/heading) block by default. Remove the heading if you do not need a section title.
 * **Image with text container:** The image or video and the content column next to it. All of the section's content blocks go here.
 
 See [How sections and blocks work](/getting-started/sections-and-blocks) for more about fixed blocks and theme blocks.
@@ -34,7 +34,7 @@ See [How sections and blocks work](/getting-started/sections-and-blocks) for mor
 ## Section settings
 
 * **Make section full width:** Enable this setting to make the section span the full width of the screen.
-* **Show section behind header:** Show the section behind a transparent header. This works only when the section is the first one on the page, right after the header, on a page type ticked in the header's **Transparent header** settings. For the best result, turn on full width, leave the section heading and spacing empty and give the header a semi-transparent background.
+* **Show section behind header:** Show the section behind a transparent header. This works only when the section is the first one on the page, right after the header. For the best result, turn on full width, leave the section heading and spacing empty and give the header a see-through background with a header color preset. See [Color presets and transparent header](/header-footer/header#color-presets-and-transparent-header).
 
 #### Colors
 
@@ -57,7 +57,7 @@ Click the **Header** block to style the heading area above the image and text.
 * **Text container max width:** Limit the width of the heading area. Set it to 0 to use the default maximum width.
 * **Text color:** Override the section text color for the heading area.
 
-You can add any theme block to the Header, for example a [Subheading](/blocks) above the heading or a [Text](/blocks) block below it.
+You can add any theme block to the Header, for example a [Subheading](/blocks/subheading) above the heading or a [Text](/blocks/text) block below it.
 
 ## Image with text container block
 
@@ -112,7 +112,7 @@ The custom play/pause and mute/unmute buttons only work with a video uploaded to
 
 ## Content blocks
 
-Click **Add block** under the **Image with text container** to add content next to the image. You can use any theme block, such as [Subheading](/blocks), [Heading](/blocks), [Text](/blocks), [Button](/blocks/button) or [Icon with text](/blocks), and the three blocks below, which are made for this section.
+Click **Add block** under the **Image with text container** to add content next to the image. You can use any theme block, such as [Subheading](/blocks/subheading), [Heading](/blocks/heading), [Text](/blocks/text), [Button](/blocks/button) or [Icon with text](/blocks/icon-with-text), and the three blocks below, which are made for this section.
 
 ### Table block
 
@@ -141,7 +141,7 @@ The **Table** block shows a simple two-column table, for example ingredients, ma
 
 ### Collapsible row block
 
-The **Collapsible row** block shows a title that opens to reveal more content when clicked. Add several rows to build an FAQ or a collapsible menu. The content inside a row is made of blocks: a [Text](/blocks) block by default, and you can add other theme blocks as well as Page content, Media, Feature icons list, Feature tags, File and Table blocks.
+The **Collapsible row** block shows a title that opens to reveal more content when clicked. Add several rows to build an FAQ or a collapsible menu. The content inside a row is made of blocks: a [Text](/blocks/text) block by default, and you can add other theme blocks as well as Page content, Media, Feature icons list, Feature tags, File and Table blocks.
 
 * **Open by default:** Show the row open when the page loads.
 
@@ -169,7 +169,7 @@ The **Collapsible row** block shows a title that opens to reveal more content wh
 
 The **Countdown timer** block counts down to a date and time. Use it for sales, launches and limited offers.
 
-* **End date and time:** The date and time the countdown ends, in the format `YYYY-MM-DD HH:MM`.
+* **End date and time:** The date and time the countdown ends, in the format `YYYY-MM-DD HH:MM`. The time is read in each shopper's own time zone, so a shopper in another country sees the countdown end at their local time.
 * **Expired message:** The text shown once the countdown has ended.
 * **Style:** Show the timer in a large headline style or in the body text style.
 * **Show labels below the timer:** Place the days, hours, minutes and seconds labels below the numbers.
