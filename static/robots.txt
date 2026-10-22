@@ -1,0 +1,12 @@
+# Wise Theme Documentation - support.wise-theme.com
+# Allow all crawlers including AI bots
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://support.wise-theme.com/sitemap.xml
+
+# LLMs.txt
+# https://support.wise-theme.com/llms.txt
+# https://support.wise-theme.com/llms-full.txt

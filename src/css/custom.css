@@ -1,0 +1,309 @@
+:root {
+  --ifm-font-family-base: 'Satoshi', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Satoshi', system-ui, -apple-system, sans-serif;
+  --ifm-color-primary: #1a1a1a;
+  --ifm-color-primary-dark: #111;
+  --ifm-color-primary-darker: #0a0a0a;
+  --ifm-color-primary-darkest: #000;
+  --ifm-color-primary-light: #333;
+  --ifm-color-primary-lighter: #444;
+  --ifm-color-primary-lightest: #555;
+  --ifm-code-font-size: 95%;
+  --ifm-font-size-base: 16px;
+  --ifm-heading-font-weight: 600;
+  --ifm-font-weight-bold: 600;
+  --ifm-navbar-shadow: none;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #e0e0e0;
+  --ifm-color-primary-dark: #c9c9c9;
+  --ifm-color-primary-darker: #bbb;
+  --ifm-color-primary-darkest: #999;
+  --ifm-color-primary-light: #f0f0f0;
+  --ifm-color-primary-lighter: #f5f5f5;
+  --ifm-color-primary-lightest: #fff;
+  --ifm-navbar-shadow: none;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar - blue gradient background */
+.navbar {
+  background: url('/img/hero-bg.jpg') center / cover no-repeat #000;
+  --ifm-navbar-link-color: #fff;
+  --ifm-navbar-link-hover-color: #47cae4;
+}
+
+.navbar__title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.navbar__logo img {
+  height: 34px;
+}
+
+/* Mobile drawer: dark text on white background */
+.navbar-sidebar .navbar__title {
+  color: #1a1a1a;
+}
+
+.navbar-sidebar .navbar__logo img {
+  filter: invert(1);
+}
+
+/* Color mode toggle visible on blue navbar */
+.navbar .colorModeToggle_DEke button,
+.navbar [class*="colorModeToggle"] button,
+.navbar [class*="toggle_"] {
+  color: #fff;
+}
+
+.navbar .colorModeToggle_DEke button:hover,
+.navbar [class*="colorModeToggle"] button:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* Article images */
+.markdown img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  margin: 16px 0;
+}
+
+/* Section headings — only inside article content, not doc cards */
+.markdown > h2 {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 8px;
+  margin-top: 2rem;
+}
+
+/* Doc card h2 — reset spacing */
+[class*="cardTitle"] {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Sidebar scrolls independently (Docusaurus default) — just don't chain the
+   wheel to the page once the menu hits its end. */
+@media (min-width: 997px) {
+  .theme-doc-sidebar-container .menu {
+    overscroll-behavior: contain;
+  }
+}
+
+/* Sidebar link styles */
+.menu__link {
+  font-size: 0.9rem;
+}
+
+.menu__link:hover {
+  color: #0077b6;
+}
+
+/* Top-level category links (with collapsible children) — uppercase label style */
+.theme-doc-sidebar-menu > .menu__list-item--collapsed > .menu__link,
+.theme-doc-sidebar-menu > .menu__list-item:not(.menu__list-item--collapsed) > .menu__link--sublist {
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 16px;
+}
+
+/* First category — no extra top margin */
+.theme-doc-sidebar-menu > .menu__list-item:first-child > .menu__link {
+  margin-top: 0;
+}
+
+/* Top-level standalone pages (Welcome etc.) — normal weight */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__link:not(.menu__link--sublist) {
+  font-weight: 500;
+}
+
+/* Second-level items — semi-bold */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__list > .menu__list-item > .menu__link {
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+/* Article-level items (leaf pages) — doc icon before label */
+.menu__link:not(.menu__link--sublist)::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: -2px;
+  opacity: 0.4;
+  background: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+/* Inline text links — light blue, darker on hover */
+.markdown a {
+  color: #0096c7;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  color: #0077b6;
+  text-decoration: underline;
+}
+
+a[class*="cardContainer"]:hover {
+  color: #0077b6;
+}
+
+[data-theme='dark'] .markdown a {
+  color: #48cae4;
+}
+
+[data-theme='dark'] .markdown a:hover {
+  color: #90e0ef;
+}
+
+/* Footer */
+.footer--dark {
+  background-color: #1a1a1a;
+}
+
+.footer--dark a:hover {
+  color: #ffffff;
+}
+
+/* Customization banner responsive */
+@media (max-width: 768px) {
+  .customization-banner-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Welcome page — article icon instead of bullet for link lists */
+.welcome-index li {
+  list-style: none;
+  position: relative;
+  padding-left: 0;
+}
+
+.welcome-index li::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: -2px;
+  opacity: 0.45;
+  background: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.welcome-index ul {
+  padding-left: 4px;
+}
+
+/* Contact page */
+.contact-email-link {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-email-link:hover {
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .contact-email-link {
+  color: #48cae4;
+}
+
+/* Preset grid on homepage */
+.preset-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.preset-card {
+  text-decoration: none !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: var(--ifm-background-surface-color, #fff);
+}
+
+.preset-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.preset-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: none !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.preset-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ifm-font-color-base);
+  margin-top: 0.6rem;
+}
+
+.preset-desc {
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 996px) {
+  .preset-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .preset-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Video tutorials responsive grid */
+@media (max-width: 996px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .video-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

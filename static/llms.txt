@@ -1,0 +1,19 @@
+# Wise Theme Documentation
+
+> Wise is a Shopify theme by Nethype, built on Shopify's block-first theme architecture. This is the official documentation covering sections, theme blocks and theme settings. Applies to Wise Theme v1.0+.
+
+## Getting Started
+
+- [How sections and blocks work in Wise](https://support.wise-theme.com/getting-started/sections-and-blocks): Sections, static blocks, theme blocks and presets
+
+## Sections
+
+- [Image with text](https://support.wise-theme.com/sections/storytelling/image-with-text): Image or video next to text, a table, a collapsible menu or a countdown timer
+
+## Blocks
+
+- [Button](https://support.wise-theme.com/blocks/button): One or two buttons or text links, usable in any section that accepts blocks
+
+## Full documentation
+
+- [llms-full.txt](https://support.wise-theme.com/llms-full.txt): All articles in a single file
