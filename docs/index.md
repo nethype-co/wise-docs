@@ -11,7 +11,18 @@ slug: /
 
 Guides and references for the Wise Shopify theme: theme settings, sections, the product page and the shared theme blocks. New to Wise? Start with [How sections and blocks work](/getting-started/sections-and-blocks).
 
-{/* TODO: preset cards for Wise and Monsoon (see wonder-docs .preset-grid) once preset images are ready */}
+<div className="preset-grid preset-grid--two">
+  <a href="/getting-started/installing-and-choosing-a-preset#wise" className="preset-card">
+    <img src="/img/docs/preset-wise-mobile.jpg" alt="Wise preset" />
+    <span className="preset-name">Wise</span>
+    <span className="preset-desc">Health & Wellness</span>
+  </a>
+  <a href="/getting-started/installing-and-choosing-a-preset#monsoon" className="preset-card">
+    <img src="/img/docs/preset-monsoon-mobile.jpg" alt="Monsoon preset" />
+    <span className="preset-name">Monsoon</span>
+    <span className="preset-desc">Beauty & Cosmetics</span>
+  </a>
+</div>
 
 ---
 

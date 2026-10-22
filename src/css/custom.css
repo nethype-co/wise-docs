@@ -256,6 +256,14 @@ a[class*="cardContainer"]:hover {
   background: var(--ifm-background-surface-color, #fff);
 }
 
+.preset-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 240px)) !important;
+}
+
+.preset-card img {
+  object-position: top;
+}
+
 .preset-card:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);

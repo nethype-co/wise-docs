@@ -20,7 +20,9 @@ A soft, friendly look with rounded shapes.
 * **Colors:** Dark text on white, a light yellow accent for small indicators such as the cart count, a semi-transparent white header with dark text and a dark footer.
 * **Icons and badges:** The Wise icon set, with **Bestseller** and **New** product badges set up.
 
-{/* TODO: screenshot of the Wise preset home page */}
+![Wise preset home page on desktop](/img/docs/preset-wise-desktop.jpg)
+
+<img src="/img/docs/preset-wise-mobile.jpg" alt="Wise preset home page on mobile" style={{maxWidth: '280px'}} />
 
 ### Monsoon
 
@@ -31,7 +33,9 @@ A sharper, editorial look with a technical feel.
 * **Colors:** Near-black text on white, a bright green accent, a semi-transparent dark header with white text and a white footer with grey text.
 * **Icons and badges:** The Monsoon icon set, arrow style slider buttons and plus / minus signs on collapsible rows. Badges are in capital letters, with **New**, **Sale**, **Perfect for travel** and **Trending** set up.
 
-{/* TODO: screenshot of the Monsoon preset home page */}
+![Monsoon preset home page on desktop](/img/docs/preset-monsoon-desktop.jpg)
+
+<img src="/img/docs/preset-monsoon-mobile.jpg" alt="Monsoon preset home page on mobile" style={{maxWidth: '280px'}} />
 
 Every difference above is a theme setting. You can change it at any time in **Theme settings**, for example in [Colors](/theme-settings/colors), [Typography](/theme-settings/typography), [Layout](/theme-settings/layout), [Icon set](/theme-settings/icon-set) and [Product badges](/theme-settings/product-badges).
 
