@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Orbit carousel** section places portrait images on a curved arc. The centered image is the active slide, the others drop away to the sides, and the whole ring turns when a visitor moves to the next slide. The subheading, heading, button and text of the active slide are shown below the arc. Use it to present collections, product lines or stories in an eye-catching way.
 
-{/* TODO: desktop screenshot or video */}
+![Orbit carousel on desktop](/img/docs/sections/orbit-carousel-desktop.jpg)
 
 You will find the section under **Banners** in the **Add section** menu. It starts with a heading and five slides.
 
@@ -91,4 +91,6 @@ Click an **Orbit slide** block to edit it. The text, button and heading of a sli
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/orbit-carousel-mobile.jpg" alt="Orbit carousel on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

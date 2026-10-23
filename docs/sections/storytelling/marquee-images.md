@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Marquee images** section shows a row of images that scrolls slowly and endlessly across the screen. Use it for lifestyle photos, a lookbook, customer photos or an Instagram style strip. The row always runs from one edge of the screen to the other.
 
-{/* TODO: desktop screenshot or video */}
+![Marquee images on desktop](/img/docs/sections/marquee-images-desktop.jpg)
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading and four images.
 
@@ -77,4 +77,6 @@ Each image in the row is an **Image** block.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/marquee-images-mobile.jpg" alt="Marquee images on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

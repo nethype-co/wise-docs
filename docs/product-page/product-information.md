@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Product information** section is the heart of every product page. It shows the product media on one side and the product details, such as the title, price, variant picker and add to cart button, on the other. Everything in the details column is built from blocks, so you decide what appears and in which order.
 
-{/* TODO: desktop screenshot or video */}
+![Product information on desktop](/img/docs/sections/main-product-desktop.jpg)
 
 ## Product templates
 
@@ -169,4 +169,6 @@ The [Variant picker](/product-page/blocks/variant-picker), [Custom option](/prod
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/main-product-mobile.jpg" alt="Product information on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

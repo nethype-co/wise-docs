@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Editorial banner** section places a stack of content directly on top of a background image or video that covers the whole section. You can combine rich text with columns, image grids, a collage, product cards or a features list, like a magazine spread. The height of the section follows the content you add.
 
-{/* TODO: desktop screenshot or video */}
+![Editorial banner on desktop](/img/docs/sections/editorial-banner-desktop.jpg)
 
 You will find the section under **Banners** in the **Add section** menu. It starts with a **Rich text** block containing a subheading, heading, text and button.
 
@@ -156,4 +156,6 @@ Each **Feature** has an **Image** or an **Icon** from the theme's icon set, a **
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/editorial-banner-mobile.jpg" alt="Editorial banner on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

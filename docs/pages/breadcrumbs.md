@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Breadcrumbs** section shows a small navigation trail at the top of a page, for example *Home / Skincare / Daily serum*. Customers can see where they are in your store and click back to a collection or to the home page.
 
-{/* TODO: desktop screenshot or video */}
+![Breadcrumbs on desktop](/img/docs/sections/main-breadcrumbs-desktop.jpg)
 
 ## Where to find it
 
@@ -54,4 +54,6 @@ On mobile, the trail stays on one line. A long trail is cut off and fades out at
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/main-breadcrumbs-mobile.jpg" alt="Breadcrumbs on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

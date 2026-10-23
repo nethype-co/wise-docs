@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Parallax section** fills the screen with a heading, text and button, optionally on top of a background image or video. As customers scroll, the heading stays in place and a series of images floats up over it, each slightly tilted. Use it for a striking campaign or brand story moment.
 
-{/* TODO: desktop screenshot or video */}
+![Parallax section on desktop](/img/docs/sections/parallax-desktop.jpg)
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading, text and button, and two floating images.
 
@@ -96,4 +96,6 @@ Each floating image is an **Image** block inside the **Parallax gallery**.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/parallax-mobile.jpg" alt="Parallax section on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Quiz** section is a step by step product finder. The customer answers a few questions, one slide at a time, and at the end sees the product or collection that fits them best. Use it to help shoppers choose between similar products, for example the right skincare routine, coffee roast or running shoe.
 
-{/* TODO: desktop screenshot or video */}
+![Quiz on desktop](/img/docs/sections/quiz-desktop.jpg)
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a heading, an intro banner, one question with three answers and a results slide with one result.
 
@@ -227,4 +227,6 @@ Every **Result** contains a fixed **Product card** block that sets how the recom
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/quiz-mobile.jpg" alt="Quiz on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

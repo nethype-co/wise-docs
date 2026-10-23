@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Grid view with hover** section places a column of text next to a grid of image or video tiles. When a shopper moves the mouse over a tile, it changes: a second image fades in, a color layer covers the image and different text appears. Use it to present categories, collections or services with a short teaser on the tile and more detail on hover.
 
-{/* TODO: desktop screenshot or video */}
+![Grid view with hover on desktop](/img/docs/sections/grid-view-hover-desktop.jpg)
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a text column (subheading, heading, text and button) and four tiles. Each tile shows a heading, and its hover state shows a text.
 
@@ -163,4 +163,6 @@ The hover state works on desktop with a mouse only. On touch screens and on scre
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/grid-view-hover-mobile.jpg" alt="Grid view with hover on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

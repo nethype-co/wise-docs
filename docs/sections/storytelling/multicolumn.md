@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Multicolumn** section shows a row of columns, each with an image or video and content below it. Use it to present categories, product features, team members or the steps of a process. The columns can sit in a grid or in a slider that customers swipe through.
 
-{/* TODO: desktop screenshot or video */}
+![Multicolumn on desktop](/img/docs/sections/multicolumn-desktop.jpg)
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading and four columns, each with a heading, text and button.
 
@@ -124,4 +124,6 @@ Click **Add block** under a **Multicolumn item** to add content below the media.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/multicolumn-mobile.jpg" alt="Multicolumn on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

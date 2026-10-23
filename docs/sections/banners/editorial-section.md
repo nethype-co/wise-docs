@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Editorial** section starts with a large image or video banner and continues with a stack of content below it, such as columns, image grids, a collage, product cards or a features list. A gradient can fade the bottom of the banner into the content area, so the whole section reads like one magazine page. Use it for lookbooks, campaign pages and brand stories.
 
-{/* TODO: desktop screenshot or video */}
+![Editorial on desktop](/img/docs/sections/editorial-section-desktop.jpg)
 
 You will find the section under **Banners** in the **Add section** menu. It starts with a banner holding a subheading, heading and button, a gradient, and a row of four columns below.
 
@@ -198,4 +198,6 @@ Each **Feature** has an **Image** or an **Icon** from the theme's icon set, a **
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/editorial-section-mobile.jpg" alt="Editorial on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

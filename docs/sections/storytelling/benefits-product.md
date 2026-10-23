@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Product benefits** section shows one image or video in the middle with short benefits placed around it. Each benefit has an optional icon, a heading and a line of text. Use it to explain what makes a product special at a glance.
 
-{/* TODO: desktop screenshot or video */}
+![Product benefits on desktop](/img/docs/sections/benefits-product-desktop.jpg)
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading and four benefits.
 
@@ -95,4 +95,6 @@ Click **Add block** under the **Benefits container** to add a benefit. An even n
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/benefits-product-mobile.jpg" alt="Product benefits on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

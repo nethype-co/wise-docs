@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Before and after** section places two images on top of each other with a slider handle between them. Customers drag the handle to reveal more of one image or the other. Use it to show the result of a product, such as skin care, cleaning products or a renovation, next to a column of text.
 
-{/* TODO: desktop screenshot or video */}
+![Before and after on desktop](/img/docs/sections/before-and-after-desktop.jpg)
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading above the slider, and a subheading, heading, text and button next to it.
 
@@ -136,4 +136,6 @@ The **Countdown timer** block counts down to a date and time, for example the en
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/before-and-after-mobile.jpg" alt="Before and after on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

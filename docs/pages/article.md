@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Article page** section shows a single blog post. It puts together the post's featured image, title, author and date, the content you wrote in your Shopify admin, share buttons and comments. You can reorder these parts and add your own blocks between them.
 
-{/* TODO: desktop screenshot or video */}
+![Article page on desktop](/img/docs/sections/main-article-desktop.jpg)
 
 ## Where to find it
 
@@ -91,4 +91,6 @@ The Comments block only appears when comments are enabled for the blog in your S
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/main-article-mobile.jpg" alt="Article page on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

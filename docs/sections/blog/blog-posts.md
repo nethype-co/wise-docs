@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Blog posts** section shows the latest posts from a blog you choose, as cards with an image, title, excerpt and a *Read more* button. Use it on your home page or a landing page to bring your newest stories, guides or news in front of shoppers.
 
-{/* TODO: desktop screenshot or video */}
+![Blog posts on desktop](/img/docs/sections/blog-posts-desktop.jpg)
 
 You will find it under **Blog** in the **Add section** menu. It starts with a heading and cards showing the image, tags, details, title, excerpt and button.
 
@@ -143,4 +143,6 @@ Shows a *Read more* button that links to the post.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/blog-posts-mobile.jpg" alt="Blog posts on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

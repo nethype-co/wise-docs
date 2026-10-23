@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Expert testimonial** section shows one quote at a time next to a large image. Small round thumbnails below the quote let your visitors switch between testimonials. Use it for recommendations from experts, stylists or well-known customers.
 
-{/* TODO: desktop screenshot or video */}
+![Expert testimonial on desktop](/img/docs/sections/expert-testimonial-desktop.jpg)
 
 You will find the section under **Testimonials** in the **Add section** menu. It starts with a heading and three testimonials.
 
@@ -101,4 +101,6 @@ Click **Add block** under the **Testimonial container** to add another testimoni
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/expert-testimonial-mobile.jpg" alt="Expert testimonial on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

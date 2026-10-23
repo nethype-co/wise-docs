@@ -13,7 +13,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Testimonials** section shows customer reviews one at a time, centered on the page. Each testimonial can have a star rating or a quote icon, a short text, an image and the author's name. Use it to build trust on your home page or on a landing page.
 
-{/* TODO: desktop screenshot or video */}
+![Testimonials on desktop](/img/docs/sections/testimonials-desktop.jpg)
 
 You will find the section under **Testimonials** in the **Add section** menu. It starts with a heading and two testimonials.
 
@@ -84,4 +84,6 @@ These settings only work when **Image shape** is set to **Circle** or **Square**
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/testimonials-mobile.jpg" alt="Testimonials on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

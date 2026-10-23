@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Grid view with reveal** section shows a row of image or video cards, each with a round button in the bottom corner. Clicking the button turns the card over in place to show its second side, with its own background and content. Use it for FAQs, product benefits, before and after stories or any short teaser that opens to a longer answer.
 
-{/* TODO: desktop screenshot or video */}
+![Grid view with reveal on desktop](/img/docs/sections/grid-view-reveal-desktop.jpg)
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a heading and three cards. Each card shows a heading, and its revealed side has a heading, a text and a button.
 
@@ -151,4 +151,6 @@ Click **Add block** under **Reveal** to build the second side. You can use any t
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/grid-view-reveal-mobile.jpg" alt="Grid view with reveal on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Image banner** section shows a large image or video with your content on top of it. Use it as the hero banner at the top of your home page, to announce a campaign, or to play a brand video. You can also add floating product cards on top of the banner so customers can shop the look right away.
 
-{/* TODO: desktop screenshot or video */}
+![Image banner on desktop](/img/docs/sections/image-banner-desktop.jpg)
 
 The section is available in three presets, all found under **Banners** in the **Add section** menu:
 
@@ -162,4 +162,6 @@ The card is made of smaller blocks that you can reorder, remove or add again:
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/image-banner-mobile.jpg" alt="Image banner on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collections list page** section shows every collection in your store as a grid of cards. It is the page customers reach at `/collections`, for example from a "Shop all categories" link in your menu.
 
-{/* TODO: desktop screenshot or video */}
+![Collections list page on desktop](/img/docs/sections/main-list-collections-desktop.jpg)
 
 ## Where to find it
 
@@ -79,4 +79,6 @@ Each page shows 28 collections when you show 4 or 7 per row on desktop, and 30 o
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/main-list-collections-mobile.jpg" alt="Collections list page on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

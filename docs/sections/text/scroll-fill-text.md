@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Scroll fill text** section shows a large statement, such as your mission or brand promise, that fills with color word by word as the customer scrolls. You can also place small images between the words, which makes the text feel like an editorial layout. Use it to slow customers down for one key message.
 
-{/* TODO: desktop screenshot or video */}
+![Scroll fill text on desktop](/img/docs/sections/scroll-fill-text-desktop.jpg)
 
 The section is available in two presets, both found under **Text** in the **Add section** menu:
 
@@ -85,4 +85,6 @@ Visitors who have asked their device for reduced motion do not get the sticky sc
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/scroll-fill-text-mobile.jpg" alt="Scroll fill text on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

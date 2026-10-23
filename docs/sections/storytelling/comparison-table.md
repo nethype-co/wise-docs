@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Comparison table** section shows a table with up to five columns, one for each product or plan, and one row for each feature you compare. Cells can show text, a check or cross icon, or an image. Use it to compare product versions or to show why your product is better than a typical alternative.
 
-{/* TODO: desktop screenshot or video */}
+![Comparison table on desktop](/img/docs/sections/comparison-table-desktop.jpg)
 
 The section is available in two presets, both found under **Storytelling** in the **Add section** menu:
 
@@ -120,4 +120,6 @@ For each column, choose what the cell shows. Only the columns set in **Number of
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/comparison-table-mobile.jpg" alt="Comparison table on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

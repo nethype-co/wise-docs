@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Contact form** section adds a form customers can use to send you a message. You build the form from field blocks, such as name, phone, dropdowns and checkboxes, and you can place an image beside it. Use it on your contact page, or on a landing page for wholesale or event enquiries.
 
-{/* TODO: desktop screenshot or video */}
+![Contact form on desktop](/img/docs/sections/contact-form-desktop.jpg)
 
 You will find it under **Forms** in the **Add section** menu. It starts with a heading, a text and a form with Email, Name, Phone and Text area fields.
 
@@ -122,4 +122,6 @@ A single tick box, for example to accept your terms. The **Label** is the text n
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/contact-form-mobile.jpg" alt="Contact form on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

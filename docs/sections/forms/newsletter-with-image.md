@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Newsletter with image** section shows a sign-up form on a panel over a large background image. Use it to grow your mailing list, for example with a welcome discount offer near the bottom of your home page.
 
-{/* TODO: desktop screenshot or video */}
+![Newsletter with image on desktop](/img/docs/sections/newsletter-with-image-desktop.jpg)
 
 You will find it under **Forms** in the **Add section** menu. It starts with a section heading, and a panel on the image with a heading, a text and the email form.
 
@@ -90,4 +90,6 @@ After signing up, the customer sees a thank you message below the form.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/newsletter-with-image-mobile.jpg" alt="Newsletter with image on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

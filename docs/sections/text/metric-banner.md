@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Metrics banner** section shows a row of big numbers, each with a short heading and description. Use it to build trust with facts about your store, for example "10,000+ happy customers", "98% would buy again" or "5 years in business". The numbers can count up when they scroll into view.
 
-{/* TODO: desktop screenshot or video */}
+![Metrics banner on desktop](/img/docs/sections/metric-banner-desktop.jpg)
 
 The section is found under **Text** in the **Add section** menu. It starts with a heading and four metrics.
 
@@ -105,4 +105,6 @@ Each **Metric** block is one number with its heading and description. Add, dupli
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/metric-banner-mobile.jpg" alt="Metrics banner on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

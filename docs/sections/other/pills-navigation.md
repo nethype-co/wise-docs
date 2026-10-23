@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Pills navigation** section shows a row of links, either as round images with a label or as button-style pills. The pill for the page the customer is on is highlighted. Use it as visual category navigation on the home page or at the top of collection pages, similar to stories or category bubbles in shopping apps.
 
-{/* TODO: desktop screenshot or video */}
+![Pills navigation on desktop](/img/docs/sections/pills-navigation-desktop.jpg)
 
 The section is found under **Other** in the **Add section** menu. It starts with a heading and four pills.
 
@@ -102,4 +102,6 @@ A pill is highlighted when the customer is on the page it links to. A pill that 
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/pills-navigation-mobile.jpg" alt="Pills navigation on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

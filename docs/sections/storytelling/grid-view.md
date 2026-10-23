@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Grid view** section shows a row of tiles, each with an image or a video and text on top. Use it to link to collections, highlight product categories or present a few key messages side by side. On desktop and on mobile you can show the tiles as a grid or as a slider.
 
-{/* TODO: desktop screenshot or video */}
+![Grid view on desktop](/img/docs/sections/grid-view-desktop.jpg)
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a heading and three tiles, each with a subheading, a heading and a button.
 
@@ -144,4 +144,6 @@ The **Countdown timer** counts down to a date and time, for example the end of a
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/grid-view-mobile.jpg" alt="Grid view on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Cart page** section is the full cart page at `/cart`. It lists the products in the cart and shows the subtotal and checkout buttons below them. You can add a free shipping bar, a discount progress bar, cross-sells, an order note, a discount code field and more.
 
-{/* TODO: desktop screenshot or video */}
+![Cart page on desktop](/img/docs/sections/main-cart-desktop.jpg)
 
 ## Where to find it
 
@@ -185,4 +185,6 @@ Click **Add block** under the section itself to add a [Text](/blocks/text) block
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/main-cart-mobile.jpg" alt="Cart page on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

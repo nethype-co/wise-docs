@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collection product grid** section shows the products of a collection. Above the grid, a toolbar gives customers filters, sorting, the number of products and a switch to show more or fewer products per row. You can also place promo tiles between the products, for example to highlight a campaign.
 
-{/* TODO: desktop screenshot or video */}
+![Collection product grid on desktop](/img/docs/sections/main-collection-product-grid-desktop.jpg)
 
 ## Where to find it
 
@@ -143,4 +143,6 @@ The tile starts with a [Heading](/blocks/heading) and a [Button](/blocks/button)
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/main-collection-product-grid-mobile.jpg" alt="Collection product grid on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Featured blog post** section puts one blog post in the spotlight: its featured image on one side and its title, excerpt and a *Read more* button on the other. Use it to promote your newest post automatically, or a specific post you choose, such as a lookbook or a buying guide.
 
-{/* TODO: desktop screenshot or video */}
+![Featured blog post on desktop](/img/docs/sections/featured-blog-post-desktop.jpg)
 
 You will find it under **Blog** in the **Add section** menu. It starts with a heading and a post showing the title, excerpt and button.
 
@@ -96,4 +96,6 @@ These are the same card parts as in the [Blog posts](/sections/blog/blog-posts) 
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/featured-blog-post-mobile.jpg" alt="Featured blog post on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

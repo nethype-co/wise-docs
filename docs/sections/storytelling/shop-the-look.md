@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Shop the look** section shows a large image next to a slider of product cards. Each product has a hotspot marker on the image, and clicking a marker scrolls the slider to that product. Use it to sell a complete outfit, a room setup or a routine, and let shoppers add every product to the cart with one button.
 
-{/* TODO: desktop screenshot or video */}
+![Shop the look on desktop](/img/docs/sections/shop-the-look-desktop.jpg)
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a heading next to the image and two products, each with a card showing the image, vendor, title, price and rating.
 
@@ -112,4 +112,6 @@ Every **Look item** contains a fixed **Product card** block that sets how the pr
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/shop-the-look-mobile.jpg" alt="Shop the look on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

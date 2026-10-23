@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Image with text** section places an image or a video next to a column of content. Use it to tell your brand story, highlight a product feature or explain how something works. The content column is built from blocks, so you can combine headings, text and buttons with a table, a collapsible menu or a countdown timer.
 
-{/* TODO: desktop screenshot or video */}
+![Image with text on desktop](/img/docs/sections/image-with-text-desktop.jpg)
 
 The section is available in three presets, all found under **Storytelling** in the **Add section** menu:
 
@@ -179,4 +179,6 @@ The **Countdown timer** block counts down to a date and time. Use it for sales, 
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/image-with-text-mobile.jpg" alt="Image with text on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

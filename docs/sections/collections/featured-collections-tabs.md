@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Featured collections tabs** section shows products from several collections in one place. Shoppers click a tab, for example *New in*, *Best sellers* or *Sale*, to switch between them. Use it when you want to promote more than one collection without stacking several sections.
 
-{/* TODO: desktop screenshot or video */}
+![Featured collections tabs on desktop](/img/docs/sections/featured-collections-tabs-desktop.jpg)
 
 You will find it under **Collections** in the **Add section** menu. It starts with a heading and three tabs.
 
@@ -101,4 +101,6 @@ The card and its parts (Media, Vendor, Title, Price, Rating, Swatches, Tags and 
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/featured-collections-tabs-mobile.jpg" alt="Featured collections tabs on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

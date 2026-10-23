@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Content with navigation** section splits long content into groups and shows a navigation menu next to it. Clicking a link scrolls to that group, and the menu highlights the group the customer is reading. Use it for a large FAQ, a help center, size and care guides or store policies.
 
-{/* TODO: desktop screenshot or video */}
+![Content with navigation on desktop](/img/docs/sections/side-nav-content-desktop.jpg)
 
 The section is found under **Text** in the **Add section** menu, as **Content with side menu**. It starts with a heading and three navigation groups, each holding a few collapsible rows.
 
@@ -97,4 +97,6 @@ If your store uses a sticky header, the section takes it into account: groups st
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/side-nav-content-mobile.jpg" alt="Content with navigation on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>
