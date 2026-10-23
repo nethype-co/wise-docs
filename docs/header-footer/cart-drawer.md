@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Cart drawer** slides in from the side when a customer adds a product to the cart or clicks the cart icon in the header. Customers can change quantities, add a note or discount code and go to checkout without leaving the page.
 
-{/* TODO: desktop screenshot or video */}
+![Cart drawer on desktop](/img/docs/sections/cart-drawer-desktop.jpg)
 
 ## Where to find the cart drawer
 
@@ -181,4 +181,6 @@ The last block in the cart footer, below the checkout button.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/cart-drawer-mobile.jpg" alt="Cart drawer on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

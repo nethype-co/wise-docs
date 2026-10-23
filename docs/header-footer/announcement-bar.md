@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Announcement bar** is a thin bar above the header for short messages, for example "Free delivery from $100" or "30 days free returns". You can show several messages at once, let them scroll as a marquee or let them take turns.
 
-{/* TODO: desktop screenshot or video */}
+![Announcement bar on desktop](/img/docs/sections/announcement-bar-desktop.jpg)
 
 The announcement bar lives in the **Header** group at the top of the theme editor sidebar, so it shows on every page. If you removed it, click **Add section** in the Header group and choose **Announcement bar**. It can only be added to the Header group.
 
@@ -68,4 +68,6 @@ Keep each message short. On phones the bar is narrow, so a long message can take
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/announcement-bar-mobile.jpg" alt="Announcement bar on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

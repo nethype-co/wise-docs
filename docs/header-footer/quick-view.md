@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Quick view** is a side drawer that opens from the quick buy button or icon on product cards. It shows the product's images, price and options, so customers can choose a variant and add it to the cart without leaving the collection or home page. You decide what it shows by adding product page blocks to it.
 
-{/* TODO: desktop screenshot or video */}
+![Quick view on desktop](/img/docs/sections/quick-view-desktop.jpg)
 
 ## Where to find the quick view
 
@@ -77,4 +77,6 @@ See [Product information](/product-page/product-information) for more about the 
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/quick-view-mobile.jpg" alt="Quick view on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Search overlay** opens when a customer clicks the search icon in the header. It covers the page below the header and shows results while the customer types: search suggestions, collections, products, pages and blog articles. Before anything is typed, it can show trending searches and a few featured products.
 
-{/* TODO: desktop screenshot or video */}
+![Search overlay on desktop](/img/docs/sections/search-overlay-desktop.jpg)
 
 ## Where to find the search overlay
 
@@ -90,4 +90,6 @@ A few products to inspire customers, for example your bestsellers.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/search-overlay-mobile.jpg" alt="Search overlay on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

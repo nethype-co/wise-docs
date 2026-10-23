@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Header** section is the bar at the top of every page. It holds your logo, the main menu with optional mega menus, and icons such as search, account and cart. On smaller screens the menu moves into a sliding mobile menu.
 
-{/* TODO: desktop screenshot or video */}
+![Header on desktop](/img/docs/sections/header-desktop.jpg)
 
 ## Where to find the header
 
@@ -95,7 +95,7 @@ On screens narrower than 1200 px, and on wider screens when the menu does not fi
 
 A mega menu is a large panel with columns of links and optional images. To add one, expand the **Menu** block, click **Add block** and choose **Mega-menu**. Add one Mega-menu block for each menu item that should open a panel.
 
-{/* TODO: screenshot of an open mega menu with link columns and images */}
+![Open mega menu with link columns and images](/img/docs/sections/header-mega-menu-desktop.jpg)
 
 * **Menu item:** The name of the top-level menu item that opens this panel. It must match the menu item's title exactly, for example `Shop`.
 * **Columns menu:** The menu the link columns come from. The theme looks in this menu for the item with the same name: its second-level items become the column titles and its third-level items the links below them. In most stores this is the same menu as the header menu.
@@ -236,7 +236,9 @@ An icon with a short label, for example a phone icon with your phone number, or 
 
 On mobile, and on desktop when the menu does not fit, customers open the menu with the [Drawer menu trigger](#drawer-menu-trigger). The mobile menu slides in from the side and shows the links of your header menu. Items with sub-items open a new layer that slides over the first one, with a back button to return.
 
-{/* TODO: mobile screenshot of the open mobile menu */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/header-mobile-menu-mobile.jpg" alt="Open mobile menu" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>
 
 You set up the mobile menu in the same places as the desktop menu:
 
@@ -248,7 +250,7 @@ You set up the mobile menu in the same places as the desktop menu:
 
 The **Color presets** block lets you change the header colors on chosen templates, for example a see-through header with white text on your home page, and a solid header everywhere else. Add one **Color preset** block per template with **Add block**. When two presets match the same page, the lower one in the list wins.
 
-{/* TODO: screenshot of a transparent header over a full-width image banner */}
+![Transparent header over a full-width banner](/img/docs/preset-wise-desktop.jpg)
 
 * **Name:** A label for the block in the sidebar, for example "Home".
 * **Template:** The page type the preset applies to (options: Home, Product, Collection, Page, Blog, Article, Search, Cart, Collection list, 404 page).
@@ -277,4 +279,6 @@ To let the first section of a page show behind the header, for example a full-sc
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/header-mobile.jpg" alt="Header on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

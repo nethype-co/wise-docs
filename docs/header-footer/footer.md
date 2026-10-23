@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Footer** section is the area at the bottom of every page. You build it from **rows**, and each row is a grid of columns that you fill with menus, your logo, contact details, a newsletter form, social icons, payment icons and a country and language selector.
 
-{/* TODO: desktop screenshot or video */}
+![Footer on desktop](/img/docs/sections/page-footer-desktop.jpg)
 
 The footer lives in the **Footer** group at the bottom of the theme editor sidebar, so changes apply to every page. In the default setup the Footer group also contains a **Features banner** section above the footer, for example with shipping and returns benefits. You can remove it or add other sections to the Footer group.
 
@@ -150,4 +150,6 @@ A **Follow on Shop** button that lets customers follow your store in the Shop ap
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/page-footer-mobile.jpg" alt="Footer on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>

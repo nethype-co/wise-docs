@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Features banner** section shows a row of features, each with an icon, a heading and a short text. Use it for store promises such as free shipping, easy returns or secure payment, or link each feature to a page, for example your account or contact page.
 
-{/* TODO: desktop screenshot or video */}
+![Features banner on desktop](/img/docs/sections/features-banner-desktop.jpg)
 
 The section is available in two presets, both found under **Storytelling** in the **Add section** menu:
 
@@ -104,4 +104,6 @@ Each feature is a **Feature** block inside the **Features list**.
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/features-banner-mobile.jpg" alt="Features banner on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>
