@@ -40,6 +40,14 @@ const config: Config = {
   headTags: [
     {
       tagName: 'link',
+      attributes: {rel: 'icon', type: 'image/svg+xml', href: '/img/favicon.svg'},
+    },
+    {
+      tagName: 'link',
+      attributes: {rel: 'apple-touch-icon', href: '/img/favicon-245.png'},
+    },
+    {
+      tagName: 'link',
       attributes: {
         rel: 'preconnect',
         href: 'https://api.fontshare.com',
