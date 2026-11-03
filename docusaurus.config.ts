@@ -127,7 +127,7 @@ const config: Config = {
       title: 'Wise Theme',
       logo: {
         alt: 'Wise Theme',
-        src: 'img/wise-logo.svg',
+        src: 'img/wise-logo-dark.svg',
         srcDark: 'img/wise-logo.svg',
         href: '/',
         width: 32,

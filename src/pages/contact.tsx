@@ -141,13 +141,11 @@ export default function Contact(): React.JSX.Element {
               {card.action ? (
                 <button
                   onClick={card.action}
+                  className="wise-button"
                   style={{
                     marginTop: '0.5rem',
                     padding: '0.6rem 1.25rem',
-                    borderRadius: 8,
                     border: 'none',
-                    background: '#0077b6',
-                    color: '#fff',
                     fontSize: '0.9rem',
                     fontWeight: 600,
                     cursor: 'pointer',
@@ -162,7 +160,7 @@ export default function Contact(): React.JSX.Element {
                   style={{
                     marginTop: '0.5rem',
                     padding: '0.6rem 1.25rem',
-                    borderRadius: 8,
+                    borderRadius: 999,
                     border: '1px solid var(--ifm-color-emphasis-300)',
                     background: 'transparent',
                     color: 'var(--ifm-font-color-base)',

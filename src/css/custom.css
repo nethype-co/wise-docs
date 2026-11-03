@@ -1,70 +1,115 @@
 :root {
+  /* Palette from wise-theme.com */
+  --wise-ink: #2a2a2a;
+  --wise-body: #5c5c5c;
+  --wise-muted: #8d8d8d;
+  --wise-accent: #9bff92;
+  --wise-surface: #f5f5f7;
+  --wise-link-underline: #5fd654;
+  --wise-button-bg: #2a2a2a;
+  --wise-button-color: #fff;
+
   --ifm-font-family-base: 'Satoshi', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Satoshi', system-ui, -apple-system, sans-serif;
-  --ifm-color-primary: #1a1a1a;
-  --ifm-color-primary-dark: #111;
-  --ifm-color-primary-darker: #0a0a0a;
-  --ifm-color-primary-darkest: #000;
-  --ifm-color-primary-light: #333;
-  --ifm-color-primary-lighter: #444;
-  --ifm-color-primary-lightest: #555;
+  --ifm-color-primary: #2a2a2a;
+  --ifm-color-primary-dark: #262626;
+  --ifm-color-primary-darker: #242424;
+  --ifm-color-primary-darkest: #1d1d1d;
+  --ifm-color-primary-light: #363636;
+  --ifm-color-primary-lighter: #404040;
+  --ifm-color-primary-lightest: #5c5c5c;
+  --ifm-heading-color: var(--wise-ink);
+  --ifm-font-color-base: #3d3d3d;
   --ifm-code-font-size: 95%;
   --ifm-font-size-base: 16px;
   --ifm-heading-font-weight: 600;
   --ifm-font-weight-bold: 600;
   --ifm-navbar-shadow: none;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+  --ifm-navbar-link-color: var(--wise-ink);
+  --ifm-navbar-link-hover-color: var(--wise-ink);
+  --ifm-menu-color-background-active: var(--wise-surface);
+  --ifm-menu-color-background-hover: var(--wise-surface);
+  --ifm-menu-color-active: var(--wise-ink);
+  --docusaurus-highlighted-code-line-bg: rgba(155, 255, 146, 0.25);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #e0e0e0;
-  --ifm-color-primary-dark: #c9c9c9;
-  --ifm-color-primary-darker: #bbb;
-  --ifm-color-primary-darkest: #999;
-  --ifm-color-primary-light: #f0f0f0;
-  --ifm-color-primary-lighter: #f5f5f5;
-  --ifm-color-primary-lightest: #fff;
+  --wise-ink: #f5f5f7;
+  --wise-body: #c1c1c1;
+  --wise-muted: #999;
+  --wise-surface: #2a2a2a;
+  --wise-link-underline: var(--wise-accent);
+  --wise-button-bg: var(--wise-accent);
+  --wise-button-color: #2a2a2a;
+
+  --ifm-background-color: #1c1c1c;
+  --ifm-background-surface-color: #232323;
+  --ifm-color-primary: #9bff92;
+  --ifm-color-primary-dark: #7bff6f;
+  --ifm-color-primary-darker: #6bff5e;
+  --ifm-color-primary-darkest: #3dff2b;
+  --ifm-color-primary-light: #bbffb5;
+  --ifm-color-primary-lighter: #cbffc6;
+  --ifm-color-primary-lightest: #ebffe9;
+  --ifm-font-color-base: #e0e0e0;
+  --ifm-navbar-background-color: rgba(28, 28, 28, 0.85);
   --ifm-navbar-shadow: none;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-menu-color-active: var(--wise-accent);
+  --docusaurus-highlighted-code-line-bg: rgba(155, 255, 146, 0.12);
 }
 
-/* Navbar - blue gradient background */
+/* Navbar: no background image, light translucent bar like wise-theme.com */
 .navbar {
-  background: url('/img/hero-bg.jpg') center / cover no-repeat #000;
-  --ifm-navbar-link-color: #fff;
-  --ifm-navbar-link-hover-color: #47cae4;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Blur lives on a pseudo element: backdrop-filter on .navbar itself would trap
+   the fixed mobile drawer inside the bar. */
+.navbar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
 }
 
 .navbar__title {
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: var(--wise-ink);
 }
 
 .navbar__logo img {
   height: 34px;
 }
 
-/* Mobile drawer: dark text on white background */
-.navbar-sidebar .navbar__title {
-  color: #1a1a1a;
+/* Navbar links as pills, the active one highlighted in the accent color */
+.navbar__item.navbar__link {
+  border-radius: 999px;
+  padding: 6px 14px;
+  margin: 0 2px;
+  font-weight: 500;
+  transition: background 0.15s;
 }
 
-.navbar-sidebar .navbar__logo img {
-  filter: invert(1);
+.navbar__item.navbar__link:hover {
+  background: var(--wise-surface);
 }
 
-/* Color mode toggle visible on blue navbar */
-.navbar .colorModeToggle_DEke button,
-.navbar [class*="colorModeToggle"] button,
-.navbar [class*="toggle_"] {
-  color: #fff;
+.navbar__item.navbar__link--active,
+.navbar__item.navbar__link--active:hover {
+  background: var(--wise-accent);
+  color: #2a2a2a;
 }
 
-.navbar .colorModeToggle_DEke button:hover,
-.navbar [class*="colorModeToggle"] button:hover {
-  background: rgba(255,255,255,0.15);
+/* Search box as a pill */
+.navbar .navbar__search-input,
+.navbar [class*="searchBar"] input {
+  border-radius: 999px;
+  background-color: var(--wise-surface);
 }
 
 /* Article images */
@@ -103,7 +148,12 @@
 }
 
 .menu__link:hover {
-  color: #0077b6;
+  color: var(--wise-ink);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 600;
+  box-shadow: inset 3px 0 0 var(--wise-accent);
 }
 
 /* Top-level category links (with collapsible children) — uppercase label style */
@@ -152,36 +202,55 @@
   flex-shrink: 0;
 }
 
-/* Inline text links — light blue, darker on hover */
-.markdown a {
-  color: #0096c7;
-  text-decoration: none;
+/* Inline text links: ink text with an accent underline, accent highlight on hover */
+.markdown a:not(.preset-card) {
+  color: var(--wise-ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--wise-link-underline);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: background 0.15s;
 }
 
-.markdown a:hover {
-  color: #0077b6;
+.markdown a:not(.preset-card):hover {
+  background: var(--wise-accent);
+  color: #2a2a2a;
+  text-decoration-color: transparent;
+}
+
+.markdown :is(h1, h2, h3, h4) a:not(.hash-link),
+.markdown :is(h1, h2, h3, h4) a:not(.hash-link):hover {
+  font-weight: inherit;
+  text-decoration: none;
+  background: none;
+}
+
+.markdown :is(h1, h2, h3, h4) a:not(.hash-link):hover {
   text-decoration: underline;
+  text-decoration-color: var(--wise-link-underline);
 }
 
 a[class*="cardContainer"]:hover {
-  color: #0077b6;
-}
-
-[data-theme='dark'] .markdown a {
-  color: #48cae4;
-}
-
-[data-theme='dark'] .markdown a:hover {
-  color: #90e0ef;
+  color: inherit;
+  border-color: var(--wise-ink);
 }
 
 /* Footer */
 .footer--dark {
-  background-color: #1a1a1a;
+  background-color: #1c1c1c;
 }
 
 .footer--dark a:hover {
-  color: #ffffff;
+  color: var(--wise-accent);
+  text-decoration: none;
+}
+
+/* Buttons used on custom pages */
+.wise-button {
+  background: var(--wise-button-bg);
+  color: var(--wise-button-color);
+  border-radius: 999px !important;
 }
 
 /* Customization banner responsive */
@@ -222,7 +291,7 @@ a[class*="cardContainer"]:hover {
 
 /* Contact page */
 .contact-email-link {
-  color: #0077b6;
+  color: var(--wise-ink);
   text-decoration: none;
   font-weight: 600;
 }
@@ -231,8 +300,11 @@ a[class*="cardContainer"]:hover {
   text-decoration: underline;
 }
 
-[data-theme='dark'] .contact-email-link {
-  color: #48cae4;
+.contact-email-link {
+  text-decoration: underline;
+  text-decoration-color: var(--wise-link-underline);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
 /* Preset grid on homepage */
@@ -245,6 +317,7 @@ a[class*="cardContainer"]:hover {
 
 .preset-card {
   text-decoration: none !important;
+  color: inherit !important;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -314,4 +387,13 @@ a[class*="cardContainer"]:hover {
   .video-grid {
     grid-template-columns: 1fr !important;
   }
+}
+
+/* Mobile drawer: solid background (the navbar itself is translucent) */
+.navbar-sidebar {
+  background-color: #fff;
+}
+
+[data-theme='dark'] .navbar-sidebar {
+  background-color: #1c1c1c;
 }

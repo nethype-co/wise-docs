@@ -6,13 +6,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 function CustomizationBanner() {
   return (
     <div style={{
-      backgroundImage: 'linear-gradient(315deg, #47cae4 0%, #0077b6 33%, #131c82 52%, #3249e9 100%)',
-      backgroundSize: 'cover',
-      backgroundPosition: '100% 7%',
+      background: '#2a2a2a',
+      borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
     }}>
       <div className="container container-fluid" style={{padding: '48px 16px'}}>
         <p style={{
-          color: '#f1f2f5',
+          color: '#b2b2b2',
           fontSize: '16px',
           margin: '0 0 4px 0',
           fontWeight: 400,
@@ -79,8 +78,8 @@ function CustomizationBanner() {
               rel="noopener noreferrer"
               style={{
                 display: 'block',
-                background: '#ffd01e',
-                color: '#020622',
+                background: '#9bff92',
+                color: '#2a2a2a',
                 padding: '16px 40px',
                 borderRadius: '50px',
                 fontSize: '16px',
