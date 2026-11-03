@@ -135,8 +135,10 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          // A plain link instead of type 'docSidebar': Blocks and Guides live in the
+          // same sidebar, so 'docSidebar' would stay active on their pages too.
+          to: '/',
+          activeBaseRegex: '^/(?!(blocks|guides|contact|search)(/|$))',
           position: 'left',
           label: 'Docs',
         },
