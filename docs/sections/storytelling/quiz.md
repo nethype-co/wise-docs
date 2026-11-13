@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Quiz** section is a step by step product finder. The customer answers a few questions, one slide at a time, and at the end sees the product or collection that fits them best. Use it to help shoppers choose between similar products, for example the right skincare routine, coffee roast or running shoe.
 
-![Quiz on desktop](/img/docs/sections/quiz-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/quiz-desktop.mp4" autoPlay muted loop playsInline aria-label="Quiz on desktop" />
+</div>
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a heading, an intro banner, one question with three answers and a results slide with one result.
 
