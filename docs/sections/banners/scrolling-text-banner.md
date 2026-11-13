@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Scrolling text banner** section shows a line of text that moves continuously across the screen, like a ticker. You can use large text on top of a background image as an eye-catching banner, or a slim strip of icons and short messages, for example "Free shipping" or "Easy returns".
 
-![Scrolling text banner on desktop](/img/docs/sections/scrolling-text-banner-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/scrolling-text-banner-desktop.mp4" autoPlay muted loop playsInline aria-label="Scrolling text banner on desktop" />
+</div>
 
 The section is available in two presets, both found under **Banners** in the **Add section** menu:
 
@@ -107,3 +109,9 @@ Click **Add block** under the **Scrolling text container** to add another item t
 #### Spacing
 
 * **Gap:** The space between the icon and the text (0 to 16 px).
+
+## Mobile view example
+
+<div className="mobile-video">
+  <video src="/img/docs/sections/scrolling-text-banner-mobile.mp4" autoPlay muted loop playsInline aria-label="Scrolling text banner on mobile" />
+</div>
