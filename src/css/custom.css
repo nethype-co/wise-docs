@@ -397,3 +397,43 @@ a[class*="cardContainer"]:hover {
 [data-theme='dark'] .navbar-sidebar {
   background-color: #1c1c1c;
 }
+
+/* Full-width panel behind mobile preview videos */
+.mobile-video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 32px 16px;
+  background: #fafafa;
+}
+
+.mobile-video video {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.18);
+}
+
+/* Panel behind desktop preview videos; the video casts a shadow below */
+.desktop-video {
+  margin-bottom: 24px;
+  padding: 24px 24px 40px;
+  background: #fafafa;
+}
+
+.desktop-video video {
+  width: 100%;
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
+}
+
+[data-theme='dark'] .mobile-video,
+[data-theme='dark'] .desktop-video {
+  background: var(--wise-surface);
+}
+
+[data-theme='dark'] .mobile-video video,
+[data-theme='dark'] .desktop-video video {
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.6);
+}
