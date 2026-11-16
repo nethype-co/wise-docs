@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Testimonial video reels** section shows short vertical videos, like social media reels, mixed with testimonial cards in a looping carousel. The reel in the middle plays automatically. Use it to show customers using your products, next to what they say about them.
 
-![Testimonial video reels on desktop](/img/docs/sections/video-reels-with-testimonial-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/video-reels-with-testimonial-desktop.mp4" autoPlay muted loop playsInline aria-label="Testimonial video reels on desktop" />
+</div>
 
 You will find the section under **Testimonials** in the **Add section** menu. It starts with a heading, three video reels and three testimonial cards in turn, and a button below the carousel.
 
@@ -96,6 +98,6 @@ Click **Add block** under the **Video reels container** to add a video or a test
 
 ## Mobile view example
 
-<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <img src="/img/docs/sections/video-reels-with-testimonial-mobile.jpg" alt="Testimonial video reels on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+<div className="mobile-video">
+  <video src="/img/docs/sections/video-reels-with-testimonial-mobile.mp4" autoPlay muted loop playsInline aria-label="Testimonial video reels on mobile" />
 </div>

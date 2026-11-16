@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Testimonial: Marquee** section shows customer reviews as cards in a single row. The row can move continuously across the screen, like a ticker, or visitors can swipe through the cards themselves. Each card has a heading, a review, a rating and the author with a small image or icon.
 
-![Testimonial: Marquee on desktop](/img/docs/sections/testimonial-marquee-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/testimonial-marquee-desktop.mp4" autoPlay muted loop playsInline aria-label="Testimonial: Marquee on desktop" />
+</div>
 
 You will find the section under **Testimonials** in the **Add section** menu. It starts with a heading and three testimonial cards.
 
@@ -117,6 +119,6 @@ Click **Add block** under **Testimonial cards** to add another card, then click 
 
 ## Mobile view example
 
-<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <img src="/img/docs/sections/testimonial-marquee-mobile.jpg" alt="Testimonial: Marquee on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+<div className="mobile-video">
+  <video src="/img/docs/sections/testimonial-marquee-mobile.mp4" autoPlay muted loop playsInline aria-label="Testimonial: Marquee on mobile" />
 </div>

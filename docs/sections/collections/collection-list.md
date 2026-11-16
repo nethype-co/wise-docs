@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collection list** section shows the collections you choose as cards with an image and a title, each linking to its collection page. Use it on your home page to help shoppers jump straight into your main categories. You can also hide the images and show the collections as a row of buttons.
 
-![Collection list on desktop](/img/docs/sections/collection-list-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/collection-list-desktop.mp4" autoPlay muted loop playsInline aria-label="Collection list on desktop" />
+</div>
 
 You will find it under **Collections** in the **Add section** menu. It starts with a heading and six collection items.
 
@@ -98,6 +100,6 @@ Each **Collection item** block shows one collection. Click **Add block** under t
 
 ## Mobile view example
 
-<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <img src="/img/docs/sections/collection-list-mobile.jpg" alt="Collection list on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+<div className="mobile-video">
+  <video src="/img/docs/sections/collection-list-mobile.mp4" autoPlay muted loop playsInline aria-label="Collection list on mobile" />
 </div>
