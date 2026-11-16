@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collage** section arranges image or video tiles in an editorial layout: one large tile next to two smaller tiles stacked on top of each other. Each tile can carry its own text and button on top of the media, and can link to a page. Use it to feature collections, campaigns or a new arrival.
 
-{/* TODO: desktop screenshot or video */}
+![Collage on desktop](/img/docs/sections/collage-desktop.jpg)
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading and three tiles, each with a heading, text and button.
 

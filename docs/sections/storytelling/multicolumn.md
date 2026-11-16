@@ -124,6 +124,6 @@ Click **Add block** under a **Multicolumn item** to add content below the media.
 
 ## Mobile view example
 
-<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <img src="/img/docs/sections/multicolumn-mobile.jpg" alt="Multicolumn on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+<div className="mobile-video">
+  <video src="/img/docs/sections/multicolumn-mobile.mp4" autoPlay muted loop playsInline aria-label="Multicolumn on mobile" />
 </div>

@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Brands** section shows a row of logos, for example the brands you sell, press mentions or partners. The logos can sit in a row that customers swipe through, or move across the screen in a continuous marquee.
 
-![Brands on desktop](/img/docs/sections/brands-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/brands-desktop.mp4" autoPlay muted loop playsInline aria-label="Brands on desktop" />
+</div>
 
 The section is found under **Storytelling** in the **Add section** menu. It starts with a heading and four logo images.
 
@@ -90,6 +92,6 @@ The logo height is set once for the whole row in the **Brands container**, so al
 
 ## Mobile view example
 
-<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <img src="/img/docs/sections/brands-mobile.jpg" alt="Brands on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+<div className="mobile-video">
+  <video src="/img/docs/sections/brands-mobile.mp4" autoPlay muted loop playsInline aria-label="Brands on mobile" />
 </div>
