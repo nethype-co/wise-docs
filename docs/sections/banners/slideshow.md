@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Slideshow** section shows several large images one after another, each with its own heading, text and buttons on top. Use it at the top of your home page to feature several collections, campaigns or offers in the same space. Each slide can also show floating product cards so customers can shop straight from the image.
 
-![Slideshow on desktop](/img/docs/sections/slideshow-desktop.jpg)
+<div className="desktop-video">
+  <video src="/img/docs/sections/slideshow-desktop.mp4" autoPlay muted loop playsInline aria-label="Slideshow on desktop" />
+</div>
 
 You will find the section under **Banners** in the **Add section** menu. It starts with a heading and three slides, each with a subheading, heading, button and a product card.
 
@@ -149,6 +151,6 @@ The card is made of smaller blocks that you can reorder, remove or add again:
 
 ## Mobile view example
 
-<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
-  <img src="/img/docs/sections/slideshow-mobile.jpg" alt="Slideshow on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+<div className="mobile-video">
+  <video src="/img/docs/sections/slideshow-mobile.mp4" autoPlay muted loop playsInline aria-label="Slideshow on mobile" />
 </div>
