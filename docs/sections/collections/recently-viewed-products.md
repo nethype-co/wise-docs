@@ -85,6 +85,4 @@ The **Product card** block inside **Recently viewed products** controls how ever
 
 The card works exactly as in the Featured collection section. See [Featured collection → Product card block](/sections/collections/featured-collection#product-card-block) for every setting.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

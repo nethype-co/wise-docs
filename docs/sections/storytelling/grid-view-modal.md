@@ -166,6 +166,4 @@ Click **Add block** under the **Modal** to build the pop-up content. You can use
 
 * **Page:** The page to show. Nothing is shown on the storefront until you pick a page.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

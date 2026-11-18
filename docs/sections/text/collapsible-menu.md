@@ -97,6 +97,4 @@ Besides the theme blocks, you can add these blocks inside a row:
 The **Table**, **Feature icons list**, **Feature tags** and **File** blocks can read a product metafield. Enter the namespace and key, for example `custom.specification`. A product metafield only has a value on a product page, so on a regular page use the row blocks, item blocks or tag blocks instead.
 :::
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

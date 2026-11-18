@@ -105,6 +105,4 @@ The custom play/pause and mute/unmute buttons only work with a video uploaded to
 
 Click **Add block** under **Image and video** to add content on top of the media. You can use any theme block, for example [Subheading](/blocks/subheading), [Heading](/blocks/heading), [Text](/blocks/text) and [Button](/blocks/button).
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

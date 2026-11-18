@@ -219,6 +219,4 @@ Shows a button on the card that adds the product to the cart, opens the quick vi
 * **Button style:** The look of the button (options: Primary, Secondary, Link).
 * **Visible on:** Show the button on desktop and mobile, desktop only, or mobile only. Desktop starts at 1200 px screen width.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

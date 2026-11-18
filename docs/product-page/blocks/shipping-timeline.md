@@ -78,6 +78,4 @@ This line uses the **Free shipping minimum amount** from [Cart add-ons](/theme-s
 * **Distance top (desktop)** and **Distance bottom (desktop):** Space above and below the block (0 to 60 px).
 * **Show custom mobile spacing:** Enable this setting to use different spacing on mobile. When it is on, **Distance top (mobile)** and **Distance bottom (mobile)** appear.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

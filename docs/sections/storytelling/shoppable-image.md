@@ -125,6 +125,4 @@ A **Benefit hotspot** marks a detail on the image with a plus marker and opens a
 
 * **Horizontal position** and **Vertical position:** The marker position on screens narrower than 900 px (13 to 87% across, 13 to 95% down).
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

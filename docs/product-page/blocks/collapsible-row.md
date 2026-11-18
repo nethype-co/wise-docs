@@ -140,6 +140,4 @@ Shows a two-column table, for example a specification list with *Material*, *Wei
 
 When the metafield is empty for a product, the table shows nothing. Turn on **Hide if content is empty** on the row to hide the whole row in that case.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

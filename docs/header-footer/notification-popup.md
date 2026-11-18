@@ -99,6 +99,4 @@ Shows a discount code with a copy button, so customers can copy it with one clic
 
 * **Discount code:** The code to show, for example `SAVE20`. Create the discount itself in your Shopify admin under **Discounts**.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

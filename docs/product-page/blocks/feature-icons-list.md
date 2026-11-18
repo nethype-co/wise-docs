@@ -71,6 +71,4 @@ The block starts with three **Item** blocks. Click **Add block** inside Feature 
 * **Title:** The item's title, shown in bold.
 * **Description:** A short text below the title.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

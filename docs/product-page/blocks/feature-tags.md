@@ -82,6 +82,4 @@ Click **Add block** inside Feature tags to add a **Tag** by hand. Tag blocks are
 * **Image:** An icon image for this tag only.
 * **Icon:** An icon from the theme's icon set for this tag only. When both are empty, the tag uses the icon set on the Feature tags block.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

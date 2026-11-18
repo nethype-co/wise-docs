@@ -58,6 +58,4 @@ Every reel contains a **Compact product card**, shown over the video in the reel
 
 The card starts with **Thumbnail**, **Vendor**, **Title**, **Price** and **Button** blocks, and you can also add **Badge** and **Rating**. See [Complementary products (compact card)](/product-page/blocks/complementary-products-compact) for a short description of each part. The **Button** adds the product to the cart, or opens quick view when the product has several variants.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

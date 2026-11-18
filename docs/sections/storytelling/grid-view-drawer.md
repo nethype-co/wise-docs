@@ -157,6 +157,4 @@ Click **Add block** under the **Drawer** to build the drawer content. You can us
 
 * **Page:** The page to show. Nothing is shown on the storefront until you pick a page.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}
