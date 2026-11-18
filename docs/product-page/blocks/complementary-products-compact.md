@@ -74,6 +74,4 @@ Click **Add block** inside the Compact product card to add these parts:
 * **Rating:** The star rating from your reviews app.
 * **Button:** An add to cart button. **Display** shows a bag icon or a text button (the icon comes from [Icon set](/theme-settings/icon-set)), and **Button style** picks Primary or Secondary. A product with one variant is added to the cart straight away. A product with several variants opens quick view so the customer can choose. A sold out product shows a disabled button.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

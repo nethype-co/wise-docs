@@ -114,6 +114,4 @@ Click **Add block** under a **Grid item** to add content to the tile. You can us
 
 The **Countdown timer** block counts down to a date and time, for example the end of a sale. Set the **End date and time** in the format `YYYY-MM-DD HH:MM`, an **Expired message**, the **Style** and the timer scale. See the [Image with text](/sections/storytelling/image-with-text#countdown-timer-block) article for every setting.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

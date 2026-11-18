@@ -75,6 +75,4 @@ In the theme editor, a timer with an empty or past date shows a sample countdown
 
 Click **Add block** to add more content. You can use any theme block, such as [Subheading](/blocks/subheading), [Text](/blocks/text), [Button](/blocks/button), [Icon with text](/blocks/icon-with-text) or [Separator](/blocks/separator), and more **Countdown timer** blocks.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

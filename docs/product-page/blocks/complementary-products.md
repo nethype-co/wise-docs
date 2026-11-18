@@ -83,6 +83,4 @@ Click **Add block** inside the Product card to add these parts:
 * **Separator:** A dividing line, see [Separator](/blocks/separator).
 * **Quick buy button:** A button that adds the product to the cart or opens quick view, as set under **Quick buy** on the card.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

@@ -75,6 +75,4 @@ Shows an image or a video in the drawer.
 In the theme editor, select a block inside the drawer to open the drawer and see your changes.
 :::
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

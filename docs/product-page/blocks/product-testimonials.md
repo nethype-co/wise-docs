@@ -78,6 +78,4 @@ Each **Testimonial** is one card. Click **Add block** inside Testimonials to add
 * **Text:** The customer's words.
 * **Author:** The customer's name.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

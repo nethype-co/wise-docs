@@ -67,6 +67,4 @@ Click the **Navigation** block to choose the menu and style the buttons.
 For the submenu behavior to work, set up your menu with nested links, for example a "Clothing" link with "Dresses", "Tops" and "Jeans" below it. Add the section to your collection template with that menu, and on the Dresses collection the row shows Dresses, Tops and Jeans.
 :::
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

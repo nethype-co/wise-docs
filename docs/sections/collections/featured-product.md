@@ -131,6 +131,4 @@ A few things work differently from the product page:
 * Opening the page does not add the product to the shopper's recently viewed products.
 :::
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

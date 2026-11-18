@@ -90,6 +90,4 @@ Each slide has a fixed **Product card** block for the product half, with Media, 
 
 The card works as in the Featured collection section, see [Featured collection → Product card block](/sections/collections/featured-collection#product-card-block) for every setting. In this section the card always shows one large product image, so a few settings are hidden: the card **Height** and **Colors** (use the slide's **Product background color** and **Product text color** instead), and the Media block's media mode, **Image fit**, **Show video** and **Badges position**.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

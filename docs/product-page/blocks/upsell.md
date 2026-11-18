@@ -76,6 +76,4 @@ Used when **Card style** is set to Compact card. Click it to style all the cards
 
 Click **Add block** inside the Compact product card to add parts: **Thumbnail**, **Vendor**, **Badge**, **Title**, **Price**, **Rating** and **Button**. See [Complementary products (compact card)](/product-page/blocks/complementary-products-compact) for a short description of each part.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}

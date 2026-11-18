@@ -87,6 +87,4 @@ shows a table with a heading row and three size rows. Wide tables scroll sideway
 
 When the product has no value in the metafield, the table shows nothing.
 
-## Mobile view example
-
 {/* TODO: mobile screenshot */}
