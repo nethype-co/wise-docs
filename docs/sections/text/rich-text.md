@@ -12,7 +12,7 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Rich text** section is a simple, flexible block of content with no image. Use it for a short message, an introduction to a page, a call to action, a newsletter signup or a spacer between other sections. Everything inside is built from blocks, and on desktop you can split the blocks into two columns.
 
-{/* TODO: desktop screenshot or video */}
+![Rich text on desktop](/img/docs/sections/rich-text-desktop.jpg)
 
 The section is available in five presets:
 
@@ -90,4 +90,6 @@ In the theme editor, a countdown with an empty or past date shows a sample count
 
 ## Mobile view example
 
-{/* TODO: mobile screenshot */}
+<div style={{display: "flex", justifyContent: "center", marginBottom: "20px"}}>
+  <img src="/img/docs/sections/rich-text-mobile.jpg" alt="Rich text on mobile" style={{maxWidth: "320px", borderRadius: "8px"}} />
+</div>
