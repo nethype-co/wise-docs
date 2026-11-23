@@ -12,13 +12,15 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Sticky buy button** block adds a bar to the bottom of the screen with an add to cart button. It appears once the customer scrolls past the main add to cart button, so they can buy at any time while reading the rest of the page. On desktop the bar can also show the product image, title and price.
 
-{/* TODO: screenshot of the sticky bar on mobile and desktop */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page. Where you place the block in the list does not matter: the bar always appears at the bottom of the screen.
 
 :::note
 The bar uses the [Buy buttons](/product-page/blocks/buy-buttons) block of the same section, so that block has to be present. The bar adds the variant, quantity, options and plan the customer chose there. The image and price follow the selected variant, and the button says *Sold out* when the variant is sold out.
 :::
+
+<div className="image-panel">
+  <img src="/img/docs/sections/sticky-buy-button.jpg" alt="Sticky buy button bar at the bottom of the screen on desktop" />
+</div>
 
 ## Settings
 
