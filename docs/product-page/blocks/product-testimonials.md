@@ -12,8 +12,6 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Testimonials** block shows short customer quotes as cards, each with a star rating or a quote mark, the text and the customer's name. Use it to add social proof right next to the buy buttons, or below the product images.
 
-{/* TODO: screenshot of two testimonial cards */}
-
 To add the block, open the **Product information** section and click **Add block**, then pick **Testimonials**. See [Product information](/product-page/product-information) for how blocks work on the product page. The block can also be placed in the **Below gallery** area.
 
 The block starts with two **Testimonial** blocks.
@@ -21,6 +19,10 @@ The block starts with two **Testimonial** blocks.
 :::note
 The testimonials are text you type in, so they are the same on every product that uses this template. To show real reviews per product, use a reviews app.
 :::
+
+<div className="image-panel">
+  <img src="/img/docs/sections/product-testimonials.jpg" alt="Two testimonial cards below the product gallery" />
+</div>
 
 ## Settings
 
