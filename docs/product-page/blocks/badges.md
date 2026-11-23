@@ -12,9 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Badges** block shows the product's badges as small labels in the product details, for example *New*, *Bestseller* or *Sold out*. They look the same as the badges on product cards and on the gallery.
 
-{/* TODO: screenshot of badges above the product title */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+![Badges above the product title](/img/docs/sections/badges.jpg)
 
 ## Which badges are shown
 
@@ -41,3 +41,5 @@ The sale discount percentage is not a badge in this block. It is shown next to t
 :::tip
 To show badges on top of the product images instead, turn on **Show badges on product images** in the **Product gallery** block of the [Product information](/product-page/product-information) section.
 :::
+
+![Badges block and its settings in the theme editor](/img/docs/sections/badges-settings.jpg)
