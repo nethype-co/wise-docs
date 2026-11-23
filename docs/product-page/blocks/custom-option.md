@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Custom option** block adds an extra choice to the product page that is not a variant. The customer's answer is saved with the product in the cart and appears on the order, so you know exactly what to prepare. Use it for things such as gift wrapping, an engraving text, a monogram or a note for the order.
 
-{/* TODO: screenshot of a custom option text field above the add to cart button */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/custom-option.jpg" alt="Custom option checkbox for gift wrapping on the product page" />
+</div>
 
 ## How it works
 
