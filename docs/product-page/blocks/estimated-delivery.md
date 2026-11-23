@@ -12,13 +12,15 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Estimated delivery** block shows a short line with your label, for example *Estimated delivery:*, followed by the expected delivery date or date range, with an icon in front. You enter a number of days, a range or a fixed date, and the theme works out the delivery date from today's date in the customer's browser.
 
-{/* TODO: screenshot of the estimated delivery line */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 :::tip
 Need cutoff times, holidays or a step-by-step timeline? Use the [Shipping timeline](/product-page/blocks/shipping-timeline) block instead.
 :::
+
+<div className="image-panel">
+  <img src="/img/docs/sections/estimated-delivery.jpg" alt="Estimated delivery line with a truck icon and a date range" />
+</div>
 
 ## Settings
 
