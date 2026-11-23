@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Promo** block is a simple text box with its own background color. Use it to draw attention to a short message on the product page, for example *Buy 2, get 1 free*, a launch note or a reminder about gift wrapping.
 
-{/* TODO: screenshot of a promo box below the price */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/promo.jpg" alt="Promo box with a buy 2, get 1 free offer on the product page" />
+</div>
 
 ## Settings
 
