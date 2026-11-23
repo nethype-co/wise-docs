@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Subscription widget** block shows the purchase options of a product as selectable cards: one card for a one-time purchase and one card for each subscription plan, for example *Subscribe and save 15%*. When the customer picks an option, the price on the page updates to match.
 
-{/* TODO: screenshot of the subscription widget with one-time and subscription cards */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/subscription-widget.jpg" alt="Subscription widget with subscribe and save and one-time purchase cards" />
+</div>
 
 ## Before you start
 
