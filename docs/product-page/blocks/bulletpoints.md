@@ -12,9 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Bullet points** block shows a short list of the product's key features, for example *Vegan*, *30 servings per pack* or *Free shipping over $50*. Each product can have its own list from a metafield, and you can write a default list for products that have none.
 
-{/* TODO: screenshot of bullet points with check mark icons */}
-
 To add the block, open the **Product information** section and click **Add block**. You can also add it to the **Below gallery** area under the gallery. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+![Bullet points below the product price](/img/docs/sections/bullet-points.jpg)
 
 ## Where the bullet points come from
 
@@ -49,3 +49,5 @@ To add the block, open the **Product information** section and click **Add block
 
 * **Distance top (desktop)** and **Distance bottom (desktop):** Space above and below the block (0 to 60 px).
 * **Show custom mobile spacing:** Enable this setting to use different spacing on mobile. When it is on, **Distance top (mobile)** and **Distance bottom (mobile)** appear.
+
+![Bullet points block and its settings in the theme editor](/img/docs/sections/bullet-points-settings.jpg)
