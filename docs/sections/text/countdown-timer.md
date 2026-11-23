@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Countdown timer** section shows a timer that counts down to a date and time you choose. Use it to build urgency for a sale, announce a product launch or show when a limited offer ends.
 
-{/* TODO: desktop screenshot or video */}
+<div className="image-panel">
+  <img src="/img/docs/sections/countdown-timer.jpg" alt="Countdown timer section with a heading, the timer and a button" />
+</div>
 
 The section is found under **Text** in the **Add section** menu. It starts with a heading, a countdown timer and a button.
 

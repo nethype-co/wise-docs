@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Featured collection** section shows a row of product cards from one collection or from products you pick by hand. Use it on your home page to promote best sellers, new arrivals or a seasonal range, and link shoppers through to the full collection.
 
-{/* TODO: desktop screenshot or video */}
+<div className="desktop-video">
+  <video src="/img/docs/sections/featured-collection-desktop.mp4" autoPlay muted loop playsInline aria-label="Featured collection on desktop" />
+</div>
 
 You will find it under **Collections** in the **Add section** menu. It starts with a heading and product cards showing the image, vendor, title, price and rating.
 
@@ -219,4 +221,8 @@ Shows a button on the card that adds the product to the cart, opens the quick vi
 * **Button style:** The look of the button (options: Primary, Secondary, Link).
 * **Visible on:** Show the button on desktop and mobile, desktop only, or mobile only. Desktop starts at 1200 px screen width.
 
-{/* TODO: mobile screenshot */}
+## Mobile view example
+
+<div className="mobile-video">
+  <video src="/img/docs/sections/featured-collection-mobile.mp4" autoPlay muted loop playsInline aria-label="Featured collection on mobile" />
+</div>

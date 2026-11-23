@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Grid view with modal** section shows a row of image or video tiles. Each tile has a round button in its corner that opens a pop-up (modal) in the middle of the screen with more content: images, videos, text or the content of a store page. Use it for lookbooks, team members, recipes or anything that needs a closer look without leaving the page.
 
-{/* TODO: desktop screenshot or video */}
+<div className="desktop-video">
+  <video src="/img/docs/sections/grid-view-modal-desktop.mp4" autoPlay muted loop playsInline aria-label="Grid view with modal on desktop" />
+</div>
 
 You will find it under **Storytelling** in the **Add section** menu. It starts with a heading and three tiles. Each tile has a heading and a text, and its modal holds a media block and a text.
 

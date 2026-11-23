@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Products slider** section shows one product at a time next to a large promo image. Each slide has its own image, text and product, and shoppers move through the slides with the slider dots. Use it to tell a short story around a few key products, for example a campaign or a new collection.
 
-{/* TODO: desktop screenshot or video */}
+<div className="desktop-video">
+  <video src="/img/docs/sections/product-slider-desktop.mp4" autoPlay muted loop playsInline aria-label="Products slider on desktop" />
+</div>
 
 You will find it under **Collections** in the **Add section** menu. It starts with a heading and three slides, each with a heading, a text and a product card showing the image, title and price.
 

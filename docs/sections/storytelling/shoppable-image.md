@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Shoppable image** section shows one large image with hotspot markers on it. Each marker opens a small card: a product the shopper can add to the cart, or a short text about a benefit or a feature. Use it for a styled room, an outfit or a close-up product shot where you want to point out what is in the picture.
 
-{/* TODO: desktop screenshot or video */}
+<div className="desktop-video">
+  <video src="/img/docs/sections/shoppable-image-desktop.mp4" autoPlay muted loop playsInline aria-label="Shoppable image on desktop" />
+</div>
 
 The section is available in two presets, both found under **Storytelling** in the **Add section** menu:
 
