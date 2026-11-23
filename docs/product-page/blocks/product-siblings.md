@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Product siblings** block links products that are versions of each other, for example a T-shirt that you sell as one product per color. On the product page they look like a variant picker: the customer sees an image, swatch or tile for each version and clicks one to go to that product. This is also known as *combined listings* or *product variations*.
 
-{/* TODO: screenshot of product siblings shown as product images with the current one selected */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/product-siblings.jpg" alt="Product siblings shown as a dropdown with a product image" />
+</div>
 
 ## When to use siblings instead of variants
 
