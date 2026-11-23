@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Countdown with discount** block promotes a limited time offer on the product page. It shows a heading such as *Limited Time Offer*, a discount code with a **Copy** button, and a timer that counts down to the end of the offer.
 
-{/* TODO: screenshot of the countdown with discount code */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/countdown-discount.jpg" alt="Countdown with a discount code above the add to cart button" />
+</div>
 
 ## How the discount works
 
