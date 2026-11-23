@@ -12,7 +12,9 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collapsible menu** section shows a list of rows that open to reveal more content when clicked. Use it for an FAQ, shipping and returns information or care instructions, so customers can find the answer they need without scrolling through a long page.
 
-{/* TODO: desktop screenshot or video */}
+<div className="desktop-video">
+  <video src="/img/docs/sections/collapsible-menu-desktop.mp4" autoPlay muted loop playsInline aria-label="Collapsible menu on desktop" />
+</div>
 
 The section is found under **Text** in the **Add section** menu. It starts with a heading and one collapsible row with a text block inside.
 
