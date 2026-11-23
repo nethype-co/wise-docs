@@ -12,11 +12,13 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Complementary products** block shows products that pair well with the product on the page, for example a case next to a phone or a sauce next to a pasta. You choose the pairs in Shopify's free **Search & Discovery** app, and the block shows them as standard product cards in a small grid with a title such as *Pairs well with*.
 
-{/* TODO: screenshot of two complementary product cards in the product info column */}
-
 Wise has two Complementary products blocks. Both show the same products. This one uses the standard, vertical **Product card**. The other uses a horizontal compact card, see [Complementary products (compact card)](/product-page/blocks/complementary-products-compact).
 
 To add the block, open the **Product information** section and click **Add block**, then pick **Complementary products**. See [Product information](/product-page/product-information) for how blocks work on the product page. The block can also be placed in the **Below gallery** area.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/complementary-products.jpg" alt="Complementary products shown as standard product cards" />
+</div>
 
 ## Setting up complementary products
 

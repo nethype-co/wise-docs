@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Feature icons list** block shows a grid of items, each with an icon, a short title and a description. Use it for key ingredients, materials, product benefits or care symbols. The items can come from a product metafield, so each product shows its own list, or from **Item** blocks you add by hand.
 
-{/* TODO: screenshot of a two-column feature icons list */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page. You can also place it in the **Below gallery** area, or inside a [Collapsible row](/product-page/blocks/collapsible-row), a [Collapsible drawer](/product-page/blocks/collapsible-drawer) or a [Popup](/product-page/blocks/information-popup).
+
+<div className="image-panel">
+  <img src="/img/docs/sections/feature-icons-list.jpg" alt="Feature icons list in two columns inside a drawer" />
+</div>
 
 ## Where the items come from
 

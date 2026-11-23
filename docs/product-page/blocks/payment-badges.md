@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Payment badges** block shows the payment methods your store accepts, usually right below the buy buttons, to reassure customers before they check out. You can show the icons Shopify provides for your enabled payment methods, or upload your own badge image, and add a short text above it such as *Guaranteed safe checkout*.
 
-{/* TODO: screenshot of payment icons below the buy buttons */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/payment-badges.jpg" alt="Payment icons below the add to cart button" />
+</div>
 
 ## Settings
 

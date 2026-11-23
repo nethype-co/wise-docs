@@ -12,13 +12,15 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Inventory status** block tells customers whether the selected variant is in stock, for example *In stock* or *Low stock: 3 left*. You can also show a stock progress bar with messages such as *Hurry up! Only 5 items left in stock*, which changes color as stock runs low.
 
-{/* TODO: screenshot of the inventory status with a progress bar */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 :::note
 The block only works for variants whose inventory is tracked by Shopify (**Track quantity** turned on for the product in your Shopify admin). For other variants it shows nothing.
 :::
+
+<div className="image-panel">
+  <img src="/img/docs/sections/inventory-status.jpg" alt="Inventory status with a stock message and a progress bar above the add to cart button" />
+</div>
 
 ## What customers see
 

@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Badges** block shows the product's badges as small labels in the product details, for example *New*, *Bestseller* or *Sold out*. They look the same as the badges on product cards and on the gallery.
 
-{/* TODO: screenshot of badges above the product title */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/badges.jpg" alt="Badges above the product title" />
+</div>
 
 ## Which badges are shown
 

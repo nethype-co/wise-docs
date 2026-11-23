@@ -12,11 +12,13 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collapsible drawer** block looks like a [Collapsible row](/product-page/blocks/collapsible-row), but instead of opening in place it slides a drawer in from the side of the screen. Use it for longer content that would push the rest of the product information too far down, such as a size guide, care instructions or your shipping policy.
 
-{/* TODO: screenshot of the row and the open drawer */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 The block starts with a [Heading](/blocks/heading), a [Text](/blocks/text) block and a **Page content** block inside the drawer. The drawer's title is the same as the row's **Title**.
+
+<div className="desktop-video">
+  <video src="/img/docs/sections/collapsible-drawer.mp4" autoPlay muted loop playsInline aria-label="Collapsible drawer opening from the side" />
+</div>
 
 ## Settings
 

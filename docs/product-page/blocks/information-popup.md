@@ -12,11 +12,13 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Popup** block adds a small underlined link, for example *More information* or *Shipping details*, that opens a centered popup window. You build the content of the popup from blocks, so it can hold text, a store page, an image, a feature list or a table read from a product metafield.
 
-{/* TODO: screenshot of the link and the open popup */}
-
 To add the block, open the **Product information** section and click **Add block**, then pick **Popup**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 The block starts with a [Heading](/blocks/heading) and a [Text](/blocks/text) block inside the popup.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/information-popup.jpg" alt="Open popup with how to use instructions on the product page" />
+</div>
 
 ## Settings
 

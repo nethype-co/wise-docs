@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Bullet points** block shows a short list of the product's key features, for example *Vegan*, *30 servings per pack* or *Free shipping over $50*. Each product can have its own list from a metafield, and you can write a default list for products that have none.
 
-{/* TODO: screenshot of bullet points with check mark icons */}
-
 To add the block, open the **Product information** section and click **Add block**. You can also add it to the **Below gallery** area under the gallery. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/bullet-points.jpg" alt="Bullet points below the product price" />
+</div>
 
 ## Where the bullet points come from
 

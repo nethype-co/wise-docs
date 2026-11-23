@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Share buttons** block shows a row of small icons that let customers share the product with friends. Each icon opens the network's own share window with a link to the product, or a new email with the product name and link.
 
-{/* TODO: screenshot of the share buttons */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/share-buttons.jpg" alt="Share buttons with social media icons on the product page" />
+</div>
 
 ## Settings
 

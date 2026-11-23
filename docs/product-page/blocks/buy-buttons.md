@@ -12,13 +12,15 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Buy buttons** block holds everything a customer needs to buy the product: the quantity selector, the add to cart button and the dynamic checkout buttons, such as *Buy with Shop Pay*, Apple Pay or PayPal.
 
-{/* TODO: screenshot of the quantity selector, add to cart button and Shop Pay button */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 :::note
 Keep one Buy buttons block in the section whenever you use the [Variant picker](/product-page/blocks/variant-picker), [Product siblings](/product-page/blocks/product-siblings), [Custom option](/product-page/blocks/custom-option), [Subscription widget](/product-page/blocks/subscription-widget) or [Sticky buy button](/product-page/blocks/sticky-buy-button). They all send their choices through this block's add to cart form.
 :::
+
+<div className="image-panel">
+  <img src="/img/docs/sections/buy-buttons.jpg" alt="Quantity selector and add to cart button" />
+</div>
 
 ## How the button works
 

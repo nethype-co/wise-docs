@@ -12,13 +12,15 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Variant picker** block lets customers choose between the variants of a product, for example a size and a color. Each option, such as *Size* or *Color*, gets its own row. You decide per option whether the values look like tiles, color swatches, small variant photos or a drawer that slides in. The block can also show a size guide link next to one option.
 
-{/* TODO: screenshot of a variant picker with color swatches and size tiles */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
 :::note
 The block is hidden on products that have no options (only Shopify's default variant). It needs the [Buy buttons](/product-page/blocks/buy-buttons) block in the same section: the picker sends the chosen variant to the add to cart form there.
 :::
+
+<div className="image-panel">
+  <img src="/img/docs/sections/variant-picker.jpg" alt="Variant picker with pack size buttons and a sold out option crossed out" />
+</div>
 
 ## How the picker works
 

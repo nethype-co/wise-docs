@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Feature tags** block shows short product features as a row of small outlined tags, for example *Vegan*, *Gluten free* or *Organic cotton*. The tags can come from a product metafield, so every product shows its own features, or from **Tag** blocks you add by hand.
 
-{/* TODO: screenshot of feature tags with a "Free from" label */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page. You can also add Feature tags inside a [Collapsible row](/product-page/blocks/collapsible-row), a [Collapsible drawer](/product-page/blocks/collapsible-drawer) or a [Popup](/product-page/blocks/information-popup).
+
+<div className="image-panel">
+  <img src="/img/docs/sections/feature-tags.jpg" alt="Feature tags with check mark icons below the product title" />
+</div>
 
 ## Where the tags come from
 

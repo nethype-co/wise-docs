@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Shipping timeline** block shows three steps, *Ordered*, *Shipped* and *Delivered*, each with its date, so customers see at a glance when their order will arrive. Above the steps, an optional countdown such as *Order within [time left] to ship today* creates urgency, and below them a line can show how far the customer is from free shipping.
 
-{/* TODO: screenshot of the shipping timeline with countdown and free shipping line */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/shipping-timeline.jpg" alt="Shipping timeline with a countdown and the ordered, shipped and delivered steps" />
+</div>
 
 ## How the dates are calculated
 

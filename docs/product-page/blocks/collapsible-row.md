@@ -12,8 +12,6 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Collapsible row** block shows a title that opens to reveal more content when clicked. Use several rows to keep long product information tidy, for example *Details*, *Care*, *Shipping and returns* or *Downloads*. The content of a row is built from blocks, so it can hold text, a store page, an image, a specification table, file downloads and more.
 
-{/* TODO: screenshot of three collapsible rows, one of them open */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page. The block can also be placed in the **Below gallery** area.
 
 The block comes in three presets:
@@ -25,6 +23,10 @@ The block comes in three presets:
 :::tip
 If you want the content to slide in from the side of the screen instead of opening in place, use the [Collapsible drawer](/product-page/blocks/collapsible-drawer).
 :::
+
+<div className="desktop-video">
+  <video src="/img/docs/sections/collapsible-row.mp4" autoPlay muted loop playsInline aria-label="Collapsible rows opening on the product page" />
+</div>
 
 ## Settings
 
