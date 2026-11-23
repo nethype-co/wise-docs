@@ -12,11 +12,13 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Video reels** block shows a row of short video tiles, like stories on social media. When a customer taps a tile, the video opens in a reel viewer on top of the page, where they can swipe or click through all the reels. Each reel can show a caption and a compact product card, so customers can shop the product they see in the video.
 
-{/* TODO: screenshot of the reel tiles and the open reel viewer */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page. The block can also be placed in the **Below gallery** area.
 
 The block starts with three **Reel** blocks. Upload a video to each one: a reel without a video is not shown on the storefront.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/video-reels.jpg" alt="Video reels block with three reel tiles titled See it in action" />
+</div>
 
 ## Settings
 
