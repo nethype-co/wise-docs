@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Price** block shows the price of the selected variant and updates when the customer picks another variant. When the variant is on sale, it also shows the compare-at price and, if you turned it on, the discount percentage.
 
-{/* TODO: screenshot of a sale price with compare-at price and discount */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/price.jpg" alt="Sale price with the crossed-out compare-at price and a discount badge" />
+</div>
 
 ## What the block shows
 
