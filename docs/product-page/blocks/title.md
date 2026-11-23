@@ -12,9 +12,11 @@ import SectionMeta from '@site/src/components/SectionMeta';
 
 The **Title** block shows the name of the product as the main heading of the page. You can add a short brand line above it, for example the brand or collection name.
 
-{/* TODO: screenshot of the product title with a brand line */}
-
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
+
+<div className="image-panel">
+  <img src="/img/docs/sections/title.jpg" alt="Product title above the price" />
+</div>
 
 ## Settings
 
