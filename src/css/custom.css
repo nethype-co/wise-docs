@@ -437,3 +437,26 @@ a[class*="cardContainer"]:hover {
 [data-theme='dark'] .desktop-video video {
   box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.6);
 }
+
+/* Full-width panel behind small block screenshots */
+.image-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding: 32px 16px;
+  background: #fafafa;
+}
+
+.image-panel img {
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.18);
+}
+
+[data-theme='dark'] .image-panel {
+  background: var(--wise-surface);
+}
+
+[data-theme='dark'] .image-panel img {
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.6);
+}

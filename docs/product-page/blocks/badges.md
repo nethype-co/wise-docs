@@ -14,7 +14,9 @@ The **Badges** block shows the product's badges as small labels in the product d
 
 To add the block, open the **Product information** section and click **Add block**. See [Product information](/product-page/product-information) for how blocks work on the product page.
 
-![Badges above the product title](/img/docs/sections/badges.jpg)
+<div className="image-panel">
+  <img src="/img/docs/sections/badges.jpg" alt="Badges above the product title" />
+</div>
 
 ## Which badges are shown
 
@@ -41,5 +43,3 @@ The sale discount percentage is not a badge in this block. It is shown next to t
 :::tip
 To show badges on top of the product images instead, turn on **Show badges on product images** in the **Product gallery** block of the [Product information](/product-page/product-information) section.
 :::
-
-![Badges block and its settings in the theme editor](/img/docs/sections/badges-settings.jpg)
